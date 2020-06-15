@@ -38,6 +38,16 @@ namespace WebBanHoa.Web.Controllers
             return Ok(res);
         }
 
+        [HttpPost("search_nhanvien")]
+        public IActionResult SearchNhanVienCtrl([FromBody] SearchNhanVien req)
+        {
+            var res = new SingleRsp();
+            var pros = _svc.SearchNhanVien(req.Keyword, req.Page, req.Size);
+            res.Data = pros;
+
+            return Ok(res);
+        }
+
         [HttpPost("create_nhanvien")]
         public IActionResult CreateNhanVien([FromBody]NhanVienreq req)
         {

@@ -6,6 +6,6 @@ namespace WebBanHoa.Common.Rep
 {
    public  class DeleteDonHangReq
     {
-        public int? MaDh { get; set; }
+        public int MaDh { get; set; }
     }
 }
