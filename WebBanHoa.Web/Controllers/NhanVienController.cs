@@ -22,7 +22,7 @@ namespace WebBanHoa.Web.Controllers
             _svc = new NhanVienSvc();
         }
 
-        [HttpPost("lay-thong-tin-nhan-vien-theo-manv")]
+        [HttpGet("lay-thong-tin-nhan-vien-theo-manv")]
         public IActionResult getNhanVienById([FromBody]SimpleReq req)
         {
             var res = new SingleRsp();
@@ -30,7 +30,7 @@ namespace WebBanHoa.Web.Controllers
             return Ok(res);
         }
 
-        [HttpPost("lay-tat-ca-nhan-vien")]
+        [HttpGet("lay-tat-ca-nhan-vien")]
         public IActionResult getAllNhanVienById()
         {
             var res = new SingleRsp();
@@ -38,7 +38,7 @@ namespace WebBanHoa.Web.Controllers
             return Ok(res);
         }
 
-        [HttpPost("search_nhanvien")]
+        [HttpGet("search_nhanvien")]
         public IActionResult SearchNhanVienCtrl([FromBody] SearchNhanVien req)
         {
             var res = new SingleRsp();
@@ -55,7 +55,7 @@ namespace WebBanHoa.Web.Controllers
             return Ok(res);
         }
 
-        [HttpPost("update_nhanvien")]
+        [HttpPut("update_nhanvien")]
         public IActionResult UpdateNhanVien([FromBody]NhanVienreq req)
         {
             var res = _svc.UpdateNhanVien(req);

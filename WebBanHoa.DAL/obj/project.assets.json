@@ -5020,19 +5020,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+    "C:\\Users\\phudu\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\BTWBH\\WebBanHoa\\WebBanHoa.DAL\\WebBanHoa.DAL.csproj",
+      "projectUniqueName": "C:\\Users\\phudu\\Documents\\GitHub\\WebBanHoa\\WebBanHoa.DAL\\WebBanHoa.DAL.csproj",
       "projectName": "WebBanHoa.DAL",
-      "projectPath": "D:\\BTWBH\\WebBanHoa\\WebBanHoa.DAL\\WebBanHoa.DAL.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\BTWBH\\WebBanHoa\\WebBanHoa.DAL\\obj\\",
+      "projectPath": "C:\\Users\\phudu\\Documents\\GitHub\\WebBanHoa\\WebBanHoa.DAL\\WebBanHoa.DAL.csproj",
+      "packagesPath": "C:\\Users\\phudu\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\phudu\\Documents\\GitHub\\WebBanHoa\\WebBanHoa.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\phudu\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5045,8 +5045,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\BTWBH\\WebBanHoa\\WebBanHoa.Common\\WebBanHoa.Common.csproj": {
-              "projectPath": "D:\\BTWBH\\WebBanHoa\\WebBanHoa.Common\\WebBanHoa.Common.csproj"
+            "C:\\Users\\phudu\\Documents\\GitHub\\WebBanHoa\\WebBanHoa.Common\\WebBanHoa.Common.csproj": {
+              "projectPath": "C:\\Users\\phudu\\Documents\\GitHub\\WebBanHoa\\WebBanHoa.Common\\WebBanHoa.Common.csproj"
             }
           }
         }
@@ -5090,7 +5090,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

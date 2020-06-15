@@ -21,15 +21,23 @@ namespace WebBanHoa.Web.Controllers
             _svc = new DonHangSvc();
         }
 
-        [HttpPost("get-by-id")]
+        [HttpGet("get-by-id")]
         public IActionResult getNhanVienById([FromBody] SimpleReq req)
         {
             var res = new SingleRsp();
             res = _svc.Read(req.Id);
             return Ok(res);
         }
+        [HttpGet("search_donhang")]
+        public IActionResult SearchDonHangCtrl([FromBody] SearchDonHangReq req)
+        {
+            var res = new SingleRsp();
+            var pros = _svc.SearchDonHang(req.Page, req.Size, req.Keyword);
+            res.Data = pros;
 
-        [HttpPost("get-all")]
+            return Ok(res);
+        }
+        [HttpGet("get-all")]
         public IActionResult getAllNhanVienById()
         {
             var res = new SingleRsp();
@@ -43,29 +51,21 @@ namespace WebBanHoa.Web.Controllers
 
             return Ok(res);
         }
-        [HttpPost("update-donhang")]
+        [HttpPut("update-donhang")]
         public IActionResult UpdateDonHang([FromBody] DonHangReq req)
         {
             var res = _svc.CapnhatDonHang(req);
 
             return Ok(res);
         }
-        [HttpPost("delete-donhang")]
+        [HttpDelete("delete-donhang")]
         public IActionResult DeleteDonHang(DeleteDonHangReq req)
         {
             var res = _svc.DeleteDonHang(req.MaDh);
 
             return Ok(res);
         }
-        [HttpPost("search_donhang")]
-        public IActionResult SearchDonHangCtrl([FromBody] SearchDonHangReq req)
-        {
-            var res = new SingleRsp();
-            var pros = _svc.SearchDonHang(req.Page, req.Size, req.Keyword);
-            res.Data = pros;
-
-            return Ok(res);
-        }
+       
 
         private readonly DonHangSvc _svc;
     }
