@@ -6,6 +6,7 @@ using System.Linq;
 
 namespace WebBanHoa.DAL
 {
+    using WebBanHoa.Common.Rsp;
     using WebBanHoa.DAL.Models;
     public class NhanVienRep : GenericRep<WebBanHoaContext, NhanVien>
     {
@@ -21,6 +22,55 @@ namespace WebBanHoa.DAL
             m = base.Delete(m);
             return m.MaNv;
         }
+        #endregion
+
+        #region --Methods--
+        public SingleRsp CreateNhanVien(NhanVien nv)
+        {
+            var res = new SingleRsp();
+            using(var context = new WebBanHoaContext())
+            {
+                using(var tran = context.Database.BeginTransaction())
+                {
+                    try
+                    {
+                        var T = context.NhanVien.Add(nv);
+                        context.SaveChanges();
+                        tran.Commit();
+                    }
+                    catch(Exception ex)
+                    {
+                        tran.Rollback();
+                        res.SetError(ex.StackTrace);
+                    }
+                }
+            }
+            return res;
+        }
+
+        public SingleRsp UpdateNhanVien(NhanVien nv)
+        {
+            var res = new SingleRsp();
+            using (var context = new WebBanHoaContext())
+            {
+                using (var tran = context.Database.BeginTransaction())
+                {
+                    try
+                    {
+                        var T = context.NhanVien.Update(nv);
+                        context.SaveChanges();
+                        tran.Commit();
+                    }
+                    catch (Exception ex)
+                    {
+                        tran.Rollback();
+                        res.SetError(ex.StackTrace);
+                    }
+                }
+            }
+            return res;
+        }
+
         #endregion
     }
 }

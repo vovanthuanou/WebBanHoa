@@ -1,16 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text;
 
-namespace WebBanHoa.DAL.Models
+namespace WebBanHoa.Common.Rep
 {
-    public partial class NhanVien
+    public class NhanVienreq
     {
-        public NhanVien()
-        {
-            ChiNhanh = new HashSet<ChiNhanh>();
-            DonHang = new HashSet<DonHang>();
-        }
-
         public int MaNv { get; set; }
         public string HoNv { get; set; }
         public string TenNv { get; set; }
@@ -21,8 +16,5 @@ namespace WebBanHoa.DAL.Models
         public int? SoCmnd { get; set; }
         public string DiaChi { get; set; }
         public decimal? Luong { get; set; }
-
-        public virtual ICollection<ChiNhanh> ChiNhanh { get; set; }
-        public virtual ICollection<DonHang> DonHang { get; set; }
     }
 }

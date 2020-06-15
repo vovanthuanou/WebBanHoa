@@ -11,6 +11,7 @@ namespace WebBanHoa.Web.Controllers
     using DAL.Models;
     using Common.Req;
     using Common.Rsp;
+    using WebBanHoa.Common.Rep;
 
     [Route("api/[controller]")]
     [ApiController]
@@ -28,6 +29,7 @@ namespace WebBanHoa.Web.Controllers
             res = _svc.Read(req.Id);
             return Ok(res);
         }
+
         [HttpPost("get-all")]
         public IActionResult getAllNhanVienById()
         {
@@ -35,6 +37,21 @@ namespace WebBanHoa.Web.Controllers
             res.Data = _svc.All;
             return Ok(res);
         }
+
+        [HttpPost("create_nhanvien")]
+        public IActionResult CreateNhanVien([FromBody]NhanVienreq req)
+        {
+            var res = _svc.CreateNhanVien(req);
+            return Ok(res);
+        }
+
+        [HttpPost("update_nhanvien")]
+        public IActionResult UpdateNhanVien([FromBody]NhanVienreq req)
+        {
+            var res = _svc.UpdateNhanVien(req);
+            return Ok(res);
+        }
+
 
         private readonly NhanVienSvc _svc;
     }

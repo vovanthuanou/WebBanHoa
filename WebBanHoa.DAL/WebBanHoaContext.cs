@@ -212,7 +212,6 @@ namespace WebBanHoa.DAL.Models
                     .HasMaxLength(10)
                     .IsFixedLength();
 
-                entity.Property(e => e.HinhThe).HasColumnType("image");
 
                 entity.Property(e => e.HoNv)
                     .HasColumnName("HoNV")
