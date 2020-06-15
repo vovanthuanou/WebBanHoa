@@ -637,19 +637,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\vovan\\.nuget\\packages\\": {}
+    "C:\\Users\\Admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\------------THUAN----------------\\Năm 3\\Kỳ 2\\BTL\\BTL\\WebBanHoa.Common\\WebBanHoa.Common.csproj",
+      "projectUniqueName": "D:\\BTWBH\\WebBanHoa\\WebBanHoa.Common\\WebBanHoa.Common.csproj",
       "projectName": "WebBanHoa.Common",
-      "projectPath": "F:\\------------THUAN----------------\\Năm 3\\Kỳ 2\\BTL\\BTL\\WebBanHoa.Common\\WebBanHoa.Common.csproj",
-      "packagesPath": "C:\\Users\\vovan\\.nuget\\packages\\",
-      "outputPath": "F:\\------------THUAN----------------\\Năm 3\\Kỳ 2\\BTL\\BTL\\WebBanHoa.Common\\obj\\",
+      "projectPath": "D:\\BTWBH\\WebBanHoa\\WebBanHoa.Common\\WebBanHoa.Common.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "D:\\BTWBH\\WebBanHoa\\WebBanHoa.Common\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\vovan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

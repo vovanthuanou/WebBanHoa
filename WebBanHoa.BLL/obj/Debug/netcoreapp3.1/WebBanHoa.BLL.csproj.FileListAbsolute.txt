@@ -32,3 +32,20 @@ F:\------------THUAN----------------\Năm 3\Kỳ 2\BTL\BTL\WebBanHoa.BLL\obj\Deb
 F:\------------THUAN----------------\Năm 3\Kỳ 2\BTL\BTL\WebBanHoa.BLL\obj\Debug\netcoreapp3.1\WebBanHoa.BLL.dll
 F:\------------THUAN----------------\Năm 3\Kỳ 2\BTL\BTL\WebBanHoa.BLL\obj\Debug\netcoreapp3.1\WebBanHoa.BLL.pdb
 F:\------------THUAN----------------\Năm 3\Kỳ 2\BTL\BTL\WebBanHoa.BLL\obj\Debug\netcoreapp3.1\WebBanHoa.BLL.genruntimeconfig.cache
+D:\BTWBH\WebBanHoa\WebBanHoa.BLL\bin\Debug\netcoreapp3.1\WebBanHoa.BLL.deps.json
+D:\BTWBH\WebBanHoa\WebBanHoa.BLL\bin\Debug\netcoreapp3.1\WebBanHoa.BLL.runtimeconfig.json
+D:\BTWBH\WebBanHoa\WebBanHoa.BLL\bin\Debug\netcoreapp3.1\WebBanHoa.BLL.runtimeconfig.dev.json
+D:\BTWBH\WebBanHoa\WebBanHoa.BLL\bin\Debug\netcoreapp3.1\WebBanHoa.BLL.dll
+D:\BTWBH\WebBanHoa\WebBanHoa.BLL\bin\Debug\netcoreapp3.1\WebBanHoa.BLL.pdb
+D:\BTWBH\WebBanHoa\WebBanHoa.BLL\bin\Debug\netcoreapp3.1\WebBanHoa.Common.dll
+D:\BTWBH\WebBanHoa\WebBanHoa.BLL\bin\Debug\netcoreapp3.1\WebBanHoa.DAL.dll
+D:\BTWBH\WebBanHoa\WebBanHoa.BLL\bin\Debug\netcoreapp3.1\WebBanHoa.Common.pdb
+D:\BTWBH\WebBanHoa\WebBanHoa.BLL\bin\Debug\netcoreapp3.1\WebBanHoa.DAL.pdb
+D:\BTWBH\WebBanHoa\WebBanHoa.BLL\obj\Debug\netcoreapp3.1\WebBanHoa.BLL.csprojAssemblyReference.cache
+D:\BTWBH\WebBanHoa\WebBanHoa.BLL\obj\Debug\netcoreapp3.1\WebBanHoa.BLL.AssemblyInfoInputs.cache
+D:\BTWBH\WebBanHoa\WebBanHoa.BLL\obj\Debug\netcoreapp3.1\WebBanHoa.BLL.AssemblyInfo.cs
+D:\BTWBH\WebBanHoa\WebBanHoa.BLL\obj\Debug\netcoreapp3.1\WebBanHoa.BLL.csproj.CoreCompileInputs.cache
+D:\BTWBH\WebBanHoa\WebBanHoa.BLL\obj\Debug\netcoreapp3.1\WebBanHoa.BLL.csproj.CopyComplete
+D:\BTWBH\WebBanHoa\WebBanHoa.BLL\obj\Debug\netcoreapp3.1\WebBanHoa.BLL.dll
+D:\BTWBH\WebBanHoa\WebBanHoa.BLL\obj\Debug\netcoreapp3.1\WebBanHoa.BLL.pdb
+D:\BTWBH\WebBanHoa\WebBanHoa.BLL\obj\Debug\netcoreapp3.1\WebBanHoa.BLL.genruntimeconfig.cache

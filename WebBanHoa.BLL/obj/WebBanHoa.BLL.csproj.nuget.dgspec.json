@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "F:\\------------THUAN----------------\\Năm 3\\Kỳ 2\\BTL\\BTL\\WebBanHoa.BLL\\WebBanHoa.BLL.csproj": {}
+    "D:\\BTWBH\\WebBanHoa\\WebBanHoa.BLL\\WebBanHoa.BLL.csproj": {}
   },
   "projects": {
-    "F:\\------------THUAN----------------\\Năm 3\\Kỳ 2\\BTL\\BTL\\WebBanHoa.BLL\\WebBanHoa.BLL.csproj": {
+    "D:\\BTWBH\\WebBanHoa\\WebBanHoa.BLL\\WebBanHoa.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\------------THUAN----------------\\Năm 3\\Kỳ 2\\BTL\\BTL\\WebBanHoa.BLL\\WebBanHoa.BLL.csproj",
+        "projectUniqueName": "D:\\BTWBH\\WebBanHoa\\WebBanHoa.BLL\\WebBanHoa.BLL.csproj",
         "projectName": "WebBanHoa.BLL",
-        "projectPath": "F:\\------------THUAN----------------\\Năm 3\\Kỳ 2\\BTL\\BTL\\WebBanHoa.BLL\\WebBanHoa.BLL.csproj",
-        "packagesPath": "C:\\Users\\vovan\\.nuget\\packages\\",
-        "outputPath": "F:\\------------THUAN----------------\\Năm 3\\Kỳ 2\\BTL\\BTL\\WebBanHoa.BLL\\obj\\",
+        "projectPath": "D:\\BTWBH\\WebBanHoa\\WebBanHoa.BLL\\WebBanHoa.BLL.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\BTWBH\\WebBanHoa\\WebBanHoa.BLL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\vovan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -27,11 +27,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "F:\\------------THUAN----------------\\Năm 3\\Kỳ 2\\BTL\\BTL\\WebBanHoa.Common\\WebBanHoa.Common.csproj": {
-                "projectPath": "F:\\------------THUAN----------------\\Năm 3\\Kỳ 2\\BTL\\BTL\\WebBanHoa.Common\\WebBanHoa.Common.csproj"
+              "D:\\BTWBH\\WebBanHoa\\WebBanHoa.Common\\WebBanHoa.Common.csproj": {
+                "projectPath": "D:\\BTWBH\\WebBanHoa\\WebBanHoa.Common\\WebBanHoa.Common.csproj"
               },
-              "F:\\------------THUAN----------------\\Năm 3\\Kỳ 2\\BTL\\BTL\\WebBanHoa.DAL\\WebBanHoa.DAL.csproj": {
-                "projectPath": "F:\\------------THUAN----------------\\Năm 3\\Kỳ 2\\BTL\\BTL\\WebBanHoa.DAL\\WebBanHoa.DAL.csproj"
+              "D:\\BTWBH\\WebBanHoa\\WebBanHoa.DAL\\WebBanHoa.DAL.csproj": {
+                "projectPath": "D:\\BTWBH\\WebBanHoa\\WebBanHoa.DAL\\WebBanHoa.DAL.csproj"
               }
             }
           }
@@ -79,17 +79,17 @@
         }
       }
     },
-    "F:\\------------THUAN----------------\\Năm 3\\Kỳ 2\\BTL\\BTL\\WebBanHoa.Common\\WebBanHoa.Common.csproj": {
+    "D:\\BTWBH\\WebBanHoa\\WebBanHoa.Common\\WebBanHoa.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\------------THUAN----------------\\Năm 3\\Kỳ 2\\BTL\\BTL\\WebBanHoa.Common\\WebBanHoa.Common.csproj",
+        "projectUniqueName": "D:\\BTWBH\\WebBanHoa\\WebBanHoa.Common\\WebBanHoa.Common.csproj",
         "projectName": "WebBanHoa.Common",
-        "projectPath": "F:\\------------THUAN----------------\\Năm 3\\Kỳ 2\\BTL\\BTL\\WebBanHoa.Common\\WebBanHoa.Common.csproj",
-        "packagesPath": "C:\\Users\\vovan\\.nuget\\packages\\",
-        "outputPath": "F:\\------------THUAN----------------\\Năm 3\\Kỳ 2\\BTL\\BTL\\WebBanHoa.Common\\obj\\",
+        "projectPath": "D:\\BTWBH\\WebBanHoa\\WebBanHoa.Common\\WebBanHoa.Common.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\BTWBH\\WebBanHoa\\WebBanHoa.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\vovan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -137,17 +137,17 @@
         }
       }
     },
-    "F:\\------------THUAN----------------\\Năm 3\\Kỳ 2\\BTL\\BTL\\WebBanHoa.DAL\\WebBanHoa.DAL.csproj": {
+    "D:\\BTWBH\\WebBanHoa\\WebBanHoa.DAL\\WebBanHoa.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\------------THUAN----------------\\Năm 3\\Kỳ 2\\BTL\\BTL\\WebBanHoa.DAL\\WebBanHoa.DAL.csproj",
+        "projectUniqueName": "D:\\BTWBH\\WebBanHoa\\WebBanHoa.DAL\\WebBanHoa.DAL.csproj",
         "projectName": "WebBanHoa.DAL",
-        "projectPath": "F:\\------------THUAN----------------\\Năm 3\\Kỳ 2\\BTL\\BTL\\WebBanHoa.DAL\\WebBanHoa.DAL.csproj",
-        "packagesPath": "C:\\Users\\vovan\\.nuget\\packages\\",
-        "outputPath": "F:\\------------THUAN----------------\\Năm 3\\Kỳ 2\\BTL\\BTL\\WebBanHoa.DAL\\obj\\",
+        "projectPath": "D:\\BTWBH\\WebBanHoa\\WebBanHoa.DAL\\WebBanHoa.DAL.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\BTWBH\\WebBanHoa\\WebBanHoa.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\vovan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -160,8 +160,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "F:\\------------THUAN----------------\\Năm 3\\Kỳ 2\\BTL\\BTL\\WebBanHoa.Common\\WebBanHoa.Common.csproj": {
-                "projectPath": "F:\\------------THUAN----------------\\Năm 3\\Kỳ 2\\BTL\\BTL\\WebBanHoa.Common\\WebBanHoa.Common.csproj"
+              "D:\\BTWBH\\WebBanHoa\\WebBanHoa.Common\\WebBanHoa.Common.csproj": {
+                "projectPath": "D:\\BTWBH\\WebBanHoa\\WebBanHoa.Common\\WebBanHoa.Common.csproj"
               }
             }
           }
