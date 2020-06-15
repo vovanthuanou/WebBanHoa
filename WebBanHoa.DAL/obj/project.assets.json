@@ -5020,19 +5020,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\vovan\\.nuget\\packages\\": {}
+    "C:\\Users\\Admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vovan\\Desktop\\WebBanHoa\\WebBanHoa.DAL\\WebBanHoa.DAL.csproj",
+      "projectUniqueName": "D:\\BTWBH\\WebBanHoa\\WebBanHoa.DAL\\WebBanHoa.DAL.csproj",
       "projectName": "WebBanHoa.DAL",
-      "projectPath": "C:\\Users\\vovan\\Desktop\\WebBanHoa\\WebBanHoa.DAL\\WebBanHoa.DAL.csproj",
-      "packagesPath": "C:\\Users\\vovan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vovan\\Desktop\\WebBanHoa\\WebBanHoa.DAL\\obj\\",
+      "projectPath": "D:\\BTWBH\\WebBanHoa\\WebBanHoa.DAL\\WebBanHoa.DAL.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "D:\\BTWBH\\WebBanHoa\\WebBanHoa.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\vovan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5045,8 +5045,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\vovan\\Desktop\\WebBanHoa\\WebBanHoa.Common\\WebBanHoa.Common.csproj": {
-              "projectPath": "C:\\Users\\vovan\\Desktop\\WebBanHoa\\WebBanHoa.Common\\WebBanHoa.Common.csproj"
+            "D:\\BTWBH\\WebBanHoa\\WebBanHoa.Common\\WebBanHoa.Common.csproj": {
+              "projectPath": "D:\\BTWBH\\WebBanHoa\\WebBanHoa.Common\\WebBanHoa.Common.csproj"
             }
           }
         }

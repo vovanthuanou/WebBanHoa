@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using WebBanHoa.BLL;
 using WebBanHoa.Common.Rep;
+using WebBanHoa.Common.Req;
 using WebBanHoa.Common.Rsp;
 
 namespace WebBanHoa.Web.Controllers
@@ -20,6 +21,21 @@ namespace WebBanHoa.Web.Controllers
             _svc = new DonHangSvc();
         }
 
+        [HttpPost("get-by-id")]
+        public IActionResult getNhanVienById([FromBody] SimpleReq req)
+        {
+            var res = new SingleRsp();
+            res = _svc.Read(req.Id);
+            return Ok(res);
+        }
+
+        [HttpPost("get-all")]
+        public IActionResult getAllNhanVienById()
+        {
+            var res = new SingleRsp();
+            res.Data = _svc.All;
+            return Ok(res);
+        }
         [HttpPost("create-donhang")]
         public IActionResult CreateDonHang([FromBody] DonHangReq req)
         {
