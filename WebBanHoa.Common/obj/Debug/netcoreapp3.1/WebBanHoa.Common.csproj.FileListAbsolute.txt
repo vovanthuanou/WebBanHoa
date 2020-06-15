@@ -34,12 +34,3 @@ C:\Users\vovan\Desktop\WebBanHoa\WebBanHoa.Common\obj\Debug\netcoreapp3.1\WebBan
 C:\Users\vovan\Desktop\WebBanHoa\WebBanHoa.Common\obj\Debug\netcoreapp3.1\WebBanHoa.Common.csproj.CoreCompileInputs.cache
 C:\Users\vovan\Desktop\WebBanHoa\WebBanHoa.Common\obj\Debug\netcoreapp3.1\WebBanHoa.Common.dll
 C:\Users\vovan\Desktop\WebBanHoa\WebBanHoa.Common\obj\Debug\netcoreapp3.1\WebBanHoa.Common.pdb
-C:\Users\phudu\Documents\GitHub\WebBanHoa\WebBanHoa.Common\obj\Debug\netcoreapp3.1\WebBanHoa.Common.csprojAssemblyReference.cache
-C:\Users\phudu\Documents\GitHub\WebBanHoa\WebBanHoa.Common\obj\Debug\netcoreapp3.1\WebBanHoa.Common.csproj.CoreCompileInputs.cache
-C:\Users\phudu\Documents\GitHub\WebBanHoa\WebBanHoa.Common\obj\Debug\netcoreapp3.1\WebBanHoa.Common.AssemblyInfoInputs.cache
-C:\Users\phudu\Documents\GitHub\WebBanHoa\WebBanHoa.Common\obj\Debug\netcoreapp3.1\WebBanHoa.Common.AssemblyInfo.cs
-C:\Users\phudu\Documents\GitHub\WebBanHoa\WebBanHoa.Common\obj\Debug\netcoreapp3.1\WebBanHoa.Common.dll
-C:\Users\phudu\Documents\GitHub\WebBanHoa\WebBanHoa.Common\obj\Debug\netcoreapp3.1\WebBanHoa.Common.pdb
-C:\Users\phudu\Documents\GitHub\WebBanHoa\WebBanHoa.Common\bin\Debug\netcoreapp3.1\WebBanHoa.Common.deps.json
-C:\Users\phudu\Documents\GitHub\WebBanHoa\WebBanHoa.Common\bin\Debug\netcoreapp3.1\WebBanHoa.Common.dll
-C:\Users\phudu\Documents\GitHub\WebBanHoa\WebBanHoa.Common\bin\Debug\netcoreapp3.1\WebBanHoa.Common.pdb

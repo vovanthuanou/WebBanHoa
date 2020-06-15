@@ -637,19 +637,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\phudu\\.nuget\\packages\\": {}
+    "C:\\Users\\Admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\phudu\\Documents\\GitHub\\WebBanHoa\\WebBanHoa.Common\\WebBanHoa.Common.csproj",
+      "projectUniqueName": "D:\\BTWBH\\WebBanHoa\\WebBanHoa.Common\\WebBanHoa.Common.csproj",
       "projectName": "WebBanHoa.Common",
-      "projectPath": "C:\\Users\\phudu\\Documents\\GitHub\\WebBanHoa\\WebBanHoa.Common\\WebBanHoa.Common.csproj",
-      "packagesPath": "C:\\Users\\phudu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\phudu\\Documents\\GitHub\\WebBanHoa\\WebBanHoa.Common\\obj\\",
+      "projectPath": "D:\\BTWBH\\WebBanHoa\\WebBanHoa.Common\\WebBanHoa.Common.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "D:\\BTWBH\\WebBanHoa\\WebBanHoa.Common\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\phudu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -693,7 +693,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
       }
     }
   }
