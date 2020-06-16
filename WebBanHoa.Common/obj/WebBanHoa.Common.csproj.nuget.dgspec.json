@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\phudu\\Desktop\\WebBanHoa\\WebBanHoa.Common\\WebBanHoa.Common.csproj": {}
+    "F:\\------------THUAN----------------\\Năm 3\\Kỳ 2\\BTL\\WebBanHoa\\WebBanHoa.Common\\WebBanHoa.Common.csproj": {}
   },
   "projects": {
-    "C:\\Users\\phudu\\Desktop\\WebBanHoa\\WebBanHoa.Common\\WebBanHoa.Common.csproj": {
+    "F:\\------------THUAN----------------\\Năm 3\\Kỳ 2\\BTL\\WebBanHoa\\WebBanHoa.Common\\WebBanHoa.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\phudu\\Desktop\\WebBanHoa\\WebBanHoa.Common\\WebBanHoa.Common.csproj",
+        "projectUniqueName": "F:\\------------THUAN----------------\\Năm 3\\Kỳ 2\\BTL\\WebBanHoa\\WebBanHoa.Common\\WebBanHoa.Common.csproj",
         "projectName": "WebBanHoa.Common",
-        "projectPath": "C:\\Users\\phudu\\Desktop\\WebBanHoa\\WebBanHoa.Common\\WebBanHoa.Common.csproj",
-        "packagesPath": "C:\\Users\\phudu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\phudu\\Desktop\\WebBanHoa\\WebBanHoa.Common\\obj\\",
+        "projectPath": "F:\\------------THUAN----------------\\Năm 3\\Kỳ 2\\BTL\\WebBanHoa\\WebBanHoa.Common\\WebBanHoa.Common.csproj",
+        "packagesPath": "C:\\Users\\vovan\\.nuget\\packages\\",
+        "outputPath": "F:\\------------THUAN----------------\\Năm 3\\Kỳ 2\\BTL\\WebBanHoa\\WebBanHoa.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\phudu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vovan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
