@@ -22,7 +22,7 @@ namespace WebBanHoa.Web.Controllers
         }
 
         [HttpPost("get-by-id")]
-        public IActionResult getNhanVienById([FromBody] SimpleReq req)
+        public IActionResult getDonHangById([FromBody] SimpleReq req)
         {
             var res = new SingleRsp();
             res = _svc.Read(req.Id);
@@ -30,7 +30,7 @@ namespace WebBanHoa.Web.Controllers
         }
 
         [HttpPost("get-all")]
-        public IActionResult getAllNhanVienById()
+        public IActionResult getAllDonhangById()
         {
             var res = new SingleRsp();
             res.Data = _svc.All;
