@@ -20,14 +20,14 @@ namespace WebBanHoa.Web.Controllers
         {
             _svc = new DonHangSvc();
         }
-        [HttpGet("get-all-donhang")]
+        [HttpPost("get-all-donhang")]
         public IActionResult getAllNhanVienById()
         {
             var res = new SingleRsp();
             res.Data = _svc.All;
             return Ok(res);
         }
-        [HttpGet("search_donhang")]
+        [HttpPost("search_donhang")]
         public IActionResult SearchDonHangCtrl([FromBody] SearchDonHangReq req)
         {
             var res = new SingleRsp();

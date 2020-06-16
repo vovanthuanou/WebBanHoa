@@ -22,7 +22,7 @@ namespace WebBanHoa.Web.Controllers
         {
             _svc = new SanPhamSvc();
         }
-        [HttpGet("Search-SanPham")]
+        [HttpPost("Search-SanPham")]
         public IActionResult SearchSanPham(SearchSanPhamReq req)
         {
             var res = new SingleRsp();
@@ -30,7 +30,7 @@ namespace WebBanHoa.Web.Controllers
             res.Data = pros;
             return Ok(res);
         }
-        [HttpGet("Get-all-SanPham")]
+        [HttpPost("Get-all-SanPham")]
         public IActionResult GetAll()
         {
             var res = new SingleRsp();

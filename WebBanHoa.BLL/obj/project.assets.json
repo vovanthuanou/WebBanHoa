@@ -5041,19 +5041,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\vovan\\.nuget\\packages\\": {}
+    "C:\\Users\\Admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\------------THUAN----------------\\Năm 3\\Kỳ 2\\BTL\\WebBanHoa\\WebBanHoa.BLL\\WebBanHoa.BLL.csproj",
+      "projectUniqueName": "D:\\BTWBH\\WebBanHoa\\WebBanHoa.BLL\\WebBanHoa.BLL.csproj",
       "projectName": "WebBanHoa.BLL",
-      "projectPath": "F:\\------------THUAN----------------\\Năm 3\\Kỳ 2\\BTL\\WebBanHoa\\WebBanHoa.BLL\\WebBanHoa.BLL.csproj",
-      "packagesPath": "C:\\Users\\vovan\\.nuget\\packages\\",
-      "outputPath": "F:\\------------THUAN----------------\\Năm 3\\Kỳ 2\\BTL\\WebBanHoa\\WebBanHoa.BLL\\obj\\",
+      "projectPath": "D:\\BTWBH\\WebBanHoa\\WebBanHoa.BLL\\WebBanHoa.BLL.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "D:\\BTWBH\\WebBanHoa\\WebBanHoa.BLL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\vovan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5066,11 +5066,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "F:\\------------THUAN----------------\\Năm 3\\Kỳ 2\\BTL\\WebBanHoa\\WebBanHoa.Common\\WebBanHoa.Common.csproj": {
-              "projectPath": "F:\\------------THUAN----------------\\Năm 3\\Kỳ 2\\BTL\\WebBanHoa\\WebBanHoa.Common\\WebBanHoa.Common.csproj"
+            "D:\\BTWBH\\WebBanHoa\\WebBanHoa.Common\\WebBanHoa.Common.csproj": {
+              "projectPath": "D:\\BTWBH\\WebBanHoa\\WebBanHoa.Common\\WebBanHoa.Common.csproj"
             },
-            "F:\\------------THUAN----------------\\Năm 3\\Kỳ 2\\BTL\\WebBanHoa\\WebBanHoa.DAL\\WebBanHoa.DAL.csproj": {
-              "projectPath": "F:\\------------THUAN----------------\\Năm 3\\Kỳ 2\\BTL\\WebBanHoa\\WebBanHoa.DAL\\WebBanHoa.DAL.csproj"
+            "D:\\BTWBH\\WebBanHoa\\WebBanHoa.DAL\\WebBanHoa.DAL.csproj": {
+              "projectPath": "D:\\BTWBH\\WebBanHoa\\WebBanHoa.DAL\\WebBanHoa.DAL.csproj"
             }
           }
         }

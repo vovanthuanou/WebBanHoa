@@ -23,7 +23,24 @@ namespace WebBanHoa.BLL
             return res;
         }
 
+        public object SearchDonHang(int page, int size, string keyword)
+        {
+            var pro = All.Where(x => x.NguoiNhan.Contains(keyword));
+            var offset = (page - 1) * size;
+            var total = pro.Count();
+            int totalpage = (total % size) == 0 ? (int)(total / size) : (int)((total / size) + 1);
+            var data = pro.OrderBy(x => x.MaDh).Skip(offset).Take(size).ToList();
+            var res = new
+            {
+                Data = data,
+                TotalRecord = total,
+                TotalPage = totalpage,
+                Pages = page,
+                Size = size
 
+            };
+            return res;
+        }
         public SingleRsp CreateDonHang(DonHangReq pro)
         {
             var res = new SingleRsp();
@@ -70,23 +87,6 @@ namespace WebBanHoa.BLL
 
             return res;
         }
-        public object SearchDonHang(int page, int size, string keyword)
-        {
-            var pro = All.Where(x => x.NguoiNhan.Contains(keyword));
-            var offset = (page - 1) * size;
-            var total = pro.Count();
-            int totalpage = (total % size) == 0 ? (int)(total / size) : (int)((total / size) + 1);
-            var data = pro.OrderBy(x => x.MaDh).Skip(offset).Take(size).ToList();
-            var res = new
-            {
-                Data = data,
-                TotalRecord = total,
-                TotalPage = totalpage,
-                Pages = page,
-                Size = size
-
-            };
-            return res;
-        }
+        
     }
 }

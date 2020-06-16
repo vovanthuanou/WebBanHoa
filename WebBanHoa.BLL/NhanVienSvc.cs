@@ -88,5 +88,21 @@ namespace WebBanHoa.BLL
             res = _rep.UpdateNhanVien(nhanvien);
             return res;
         }
+        public SingleRsp DeleteNhanVien(int id)
+        {
+            var res = new SingleRsp();
+            try
+            {
+                res.Data = _rep.DeleteNhanVien(id);
+
+            }
+            catch (Exception ex)
+            {
+                res.SetError(ex.StackTrace);
+            }
+
+
+            return res;
+        }
     }
 }

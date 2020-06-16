@@ -70,7 +70,13 @@ namespace WebBanHoa.DAL
             }
             return res;
         }
-
+        public int DeleteNhanVien(int id)
+        {
+            var m = base.All.First(i => i.MaNv == id);
+            Context.NhanVien.Remove(m);
+            Context.SaveChanges();
+            return m.MaNv;
+        }
         #endregion
     }
 }
