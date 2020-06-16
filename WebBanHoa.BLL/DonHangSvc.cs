@@ -39,6 +39,12 @@ namespace WebBanHoa.BLL
             res = _rep.CreateDonHang(donhang);
             return res;
         }
+
+        public object DeleteDonHang(int? maDh)
+        {
+            throw new NotImplementedException();
+        }
+
         public SingleRsp CapnhatDonHang(DonHangReq pro)
         {
             var res = new SingleRsp();

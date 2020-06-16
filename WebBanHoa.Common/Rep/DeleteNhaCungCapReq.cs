@@ -4,8 +4,8 @@ using System.Text;
 
 namespace WebBanHoa.Common.Rep
 {
-   public  class DeleteDonHangReq
+    public class DeleteNhaCungCapReq
     {
-        public int MaDh { get; set; }
+        public int MaNcc { get; set; }
     }
 }
