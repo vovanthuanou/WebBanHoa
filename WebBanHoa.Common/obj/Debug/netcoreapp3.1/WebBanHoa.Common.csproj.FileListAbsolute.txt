@@ -25,6 +25,7 @@ D:\BTWBH\WebBanHoa\WebBanHoa.Common\obj\Debug\netcoreapp3.1\WebBanHoa.Common.Ass
 D:\BTWBH\WebBanHoa\WebBanHoa.Common\obj\Debug\netcoreapp3.1\WebBanHoa.Common.csproj.CoreCompileInputs.cache
 D:\BTWBH\WebBanHoa\WebBanHoa.Common\obj\Debug\netcoreapp3.1\WebBanHoa.Common.dll
 D:\BTWBH\WebBanHoa\WebBanHoa.Common\obj\Debug\netcoreapp3.1\WebBanHoa.Common.pdb
+<<<<<<< HEAD
 C:\Users\vovan\Desktop\WebBanHoa\WebBanHoa.Common\bin\Debug\netcoreapp3.1\WebBanHoa.Common.deps.json
 C:\Users\vovan\Desktop\WebBanHoa\WebBanHoa.Common\bin\Debug\netcoreapp3.1\WebBanHoa.Common.dll
 C:\Users\vovan\Desktop\WebBanHoa\WebBanHoa.Common\bin\Debug\netcoreapp3.1\WebBanHoa.Common.pdb
@@ -43,3 +44,14 @@ C:\Users\phudu\Desktop\WebBanHoa\WebBanHoa.Common\obj\Debug\netcoreapp3.1\WebBan
 C:\Users\phudu\Desktop\WebBanHoa\WebBanHoa.Common\bin\Debug\netcoreapp3.1\WebBanHoa.Common.deps.json
 C:\Users\phudu\Desktop\WebBanHoa\WebBanHoa.Common\bin\Debug\netcoreapp3.1\WebBanHoa.Common.dll
 C:\Users\phudu\Desktop\WebBanHoa\WebBanHoa.Common\bin\Debug\netcoreapp3.1\WebBanHoa.Common.pdb
+=======
+>>>>>>> origin/Code_Hau
+F:\------------THUAN----------------\Năm 3\Kỳ 2\LTCSDL\WebBanHoa\WebBanHoa.Common\obj\Debug\netcoreapp3.1\WebBanHoa.Common.csprojAssemblyReference.cache
+F:\------------THUAN----------------\Năm 3\Kỳ 2\LTCSDL\WebBanHoa\WebBanHoa.Common\obj\Debug\netcoreapp3.1\WebBanHoa.Common.AssemblyInfoInputs.cache
+F:\------------THUAN----------------\Năm 3\Kỳ 2\LTCSDL\WebBanHoa\WebBanHoa.Common\obj\Debug\netcoreapp3.1\WebBanHoa.Common.AssemblyInfo.cs
+F:\------------THUAN----------------\Năm 3\Kỳ 2\LTCSDL\WebBanHoa\WebBanHoa.Common\obj\Debug\netcoreapp3.1\WebBanHoa.Common.csproj.CoreCompileInputs.cache
+F:\------------THUAN----------------\Năm 3\Kỳ 2\LTCSDL\WebBanHoa\WebBanHoa.Common\obj\Debug\netcoreapp3.1\WebBanHoa.Common.dll
+F:\------------THUAN----------------\Năm 3\Kỳ 2\LTCSDL\WebBanHoa\WebBanHoa.Common\obj\Debug\netcoreapp3.1\WebBanHoa.Common.pdb
+F:\------------THUAN----------------\Năm 3\Kỳ 2\LTCSDL\WebBanHoa\WebBanHoa.Common\bin\Debug\netcoreapp3.1\WebBanHoa.Common.deps.json
+F:\------------THUAN----------------\Năm 3\Kỳ 2\LTCSDL\WebBanHoa\WebBanHoa.Common\bin\Debug\netcoreapp3.1\WebBanHoa.Common.dll
+F:\------------THUAN----------------\Năm 3\Kỳ 2\LTCSDL\WebBanHoa\WebBanHoa.Common\bin\Debug\netcoreapp3.1\WebBanHoa.Common.pdb

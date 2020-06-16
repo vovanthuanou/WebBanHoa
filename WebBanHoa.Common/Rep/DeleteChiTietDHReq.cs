@@ -4,7 +4,7 @@ using System.Text;
 
 namespace WebBanHoa.Common.Rep
 {
-    public class DeleteDonHangReq
+    public class DeleteChiTietDHReq
     {
         public int MaDh { get; set; }
     }
