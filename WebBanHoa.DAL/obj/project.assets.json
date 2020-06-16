@@ -5025,11 +5025,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\------------THUAN----------------\\Năm 3\\Kỳ 2\\LTCSDL\\WebBanHoa\\WebBanHoa.DAL\\WebBanHoa.DAL.csproj",
+      "projectUniqueName": "C:\\Users\\vovan\\Desktop\\WebBanHoa\\WebBanHoa.DAL\\WebBanHoa.DAL.csproj",
       "projectName": "WebBanHoa.DAL",
-      "projectPath": "F:\\------------THUAN----------------\\Năm 3\\Kỳ 2\\LTCSDL\\WebBanHoa\\WebBanHoa.DAL\\WebBanHoa.DAL.csproj",
+      "projectPath": "C:\\Users\\vovan\\Desktop\\WebBanHoa\\WebBanHoa.DAL\\WebBanHoa.DAL.csproj",
       "packagesPath": "C:\\Users\\vovan\\.nuget\\packages\\",
-      "outputPath": "F:\\------------THUAN----------------\\Năm 3\\Kỳ 2\\LTCSDL\\WebBanHoa\\WebBanHoa.DAL\\obj\\",
+      "outputPath": "C:\\Users\\vovan\\Desktop\\WebBanHoa\\WebBanHoa.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\vovan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5045,8 +5045,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "F:\\------------THUAN----------------\\Năm 3\\Kỳ 2\\LTCSDL\\WebBanHoa\\WebBanHoa.Common\\WebBanHoa.Common.csproj": {
-              "projectPath": "F:\\------------THUAN----------------\\Năm 3\\Kỳ 2\\LTCSDL\\WebBanHoa\\WebBanHoa.Common\\WebBanHoa.Common.csproj"
+            "C:\\Users\\vovan\\Desktop\\WebBanHoa\\WebBanHoa.Common\\WebBanHoa.Common.csproj": {
+              "projectPath": "C:\\Users\\vovan\\Desktop\\WebBanHoa\\WebBanHoa.Common\\WebBanHoa.Common.csproj"
             }
           }
         }

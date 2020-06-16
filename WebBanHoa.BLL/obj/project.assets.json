@@ -5046,11 +5046,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\------------THUAN----------------\\Năm 3\\Kỳ 2\\LTCSDL\\WebBanHoa\\WebBanHoa.BLL\\WebBanHoa.BLL.csproj",
+      "projectUniqueName": "C:\\Users\\vovan\\Desktop\\WebBanHoa\\WebBanHoa.BLL\\WebBanHoa.BLL.csproj",
       "projectName": "WebBanHoa.BLL",
-      "projectPath": "F:\\------------THUAN----------------\\Năm 3\\Kỳ 2\\LTCSDL\\WebBanHoa\\WebBanHoa.BLL\\WebBanHoa.BLL.csproj",
+      "projectPath": "C:\\Users\\vovan\\Desktop\\WebBanHoa\\WebBanHoa.BLL\\WebBanHoa.BLL.csproj",
       "packagesPath": "C:\\Users\\vovan\\.nuget\\packages\\",
-      "outputPath": "F:\\------------THUAN----------------\\Năm 3\\Kỳ 2\\LTCSDL\\WebBanHoa\\WebBanHoa.BLL\\obj\\",
+      "outputPath": "C:\\Users\\vovan\\Desktop\\WebBanHoa\\WebBanHoa.BLL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\vovan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5066,11 +5066,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "F:\\------------THUAN----------------\\Năm 3\\Kỳ 2\\LTCSDL\\WebBanHoa\\WebBanHoa.Common\\WebBanHoa.Common.csproj": {
-              "projectPath": "F:\\------------THUAN----------------\\Năm 3\\Kỳ 2\\LTCSDL\\WebBanHoa\\WebBanHoa.Common\\WebBanHoa.Common.csproj"
+            "C:\\Users\\vovan\\Desktop\\WebBanHoa\\WebBanHoa.Common\\WebBanHoa.Common.csproj": {
+              "projectPath": "C:\\Users\\vovan\\Desktop\\WebBanHoa\\WebBanHoa.Common\\WebBanHoa.Common.csproj"
             },
-            "F:\\------------THUAN----------------\\Năm 3\\Kỳ 2\\LTCSDL\\WebBanHoa\\WebBanHoa.DAL\\WebBanHoa.DAL.csproj": {
-              "projectPath": "F:\\------------THUAN----------------\\Năm 3\\Kỳ 2\\LTCSDL\\WebBanHoa\\WebBanHoa.DAL\\WebBanHoa.DAL.csproj"
+            "C:\\Users\\vovan\\Desktop\\WebBanHoa\\WebBanHoa.DAL\\WebBanHoa.DAL.csproj": {
+              "projectPath": "C:\\Users\\vovan\\Desktop\\WebBanHoa\\WebBanHoa.DAL\\WebBanHoa.DAL.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8XFoy82ZXtO4pNeeu3uQPm6zaTT25LcZd7rmm+nfdWajQB5dKd2QSIxZI62NQar/Z+1yD2U6nY6SZ3kdBbsXCA==",
+  "dgSpecHash": "5KkGofjIGzDHwJAGlUsTf56abRbdBgUnGG7hSbqIIsn2ejPF9v0VUg3l8Wg0VvOoM+9+IyVSAih2kHdCKdcmIA==",
   "success": true,
-  "projectFilePath": "F:\\------------THUAN----------------\\Năm 3\\Kỳ 2\\LTCSDL\\WebBanHoa\\WebBanHoa.Common\\WebBanHoa.Common.csproj",
+  "projectFilePath": "C:\\Users\\vovan\\Desktop\\WebBanHoa\\WebBanHoa.Common\\WebBanHoa.Common.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vovan\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\vovan\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
