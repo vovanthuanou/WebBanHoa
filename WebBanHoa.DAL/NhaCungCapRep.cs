@@ -8,24 +8,23 @@ namespace WebBanHoa.DAL
 {
     using WebBanHoa.Common.Rsp;
     using WebBanHoa.DAL.Models;
-    public class NhanVienRep : GenericRep<WebBanHoaContext, NhanVien>
+    public class NhaCungCapRep : GenericRep<WebBanHoaContext, NhaCungCap>
     {
         #region --Override--
-        public override NhanVien Read(int id)
+        public override NhaCungCap Read(int id)
         {
-            var res = All.FirstOrDefault(p => p.MaNv == id);
+            var res = All.FirstOrDefault(p => p.MaNcc == id);
             return res;
         }
         public int Remove(int id)
         {
-            var m = base.All.First(i => i.MaNv == id);
+            var m = base.All.First(i => i.MaNcc == id);
             m = base.Delete(m);
-            return m.MaNv;
+            return m.MaNcc;
         }
         #endregion
-
-        #region --Methods--
-        public SingleRsp CreateNhanVien(NhanVien nv)
+        #region -- Methods --
+        public SingleRsp CreateNhaCungCap(NhaCungCap Ncc)
         {
             var res = new SingleRsp();
             using (var context = new WebBanHoaContext())
@@ -34,9 +33,10 @@ namespace WebBanHoa.DAL
                 {
                     try
                     {
-                        var T = context.NhanVien.Add(nv);
+                        var t = context.NhaCungCap.Add(Ncc);
                         context.SaveChanges();
                         tran.Commit();
+
                     }
                     catch (Exception ex)
                     {
@@ -44,11 +44,14 @@ namespace WebBanHoa.DAL
                         res.SetError(ex.StackTrace);
                     }
                 }
+
             }
+
             return res;
         }
 
-        public SingleRsp UpdateNhanVien(NhanVien nv)
+        #endregion
+        public SingleRsp UpdateNhaCungCap(NhaCungCap Ncc)
         {
             var res = new SingleRsp();
             using (var context = new WebBanHoaContext())
@@ -57,9 +60,10 @@ namespace WebBanHoa.DAL
                 {
                     try
                     {
-                        var T = context.NhanVien.Update(nv);
+                        var t = context.NhaCungCap.Update(Ncc);
                         context.SaveChanges();
                         tran.Commit();
+
                     }
                     catch (Exception ex)
                     {
@@ -67,16 +71,17 @@ namespace WebBanHoa.DAL
                         res.SetError(ex.StackTrace);
                     }
                 }
+
             }
+
             return res;
         }
-        public int DeleteNhanVien(int id)
+        public int DeleteNhaCungCap(int id)
         {
-            var m = base.All.First(i => i.MaNv == id);
-            Context.NhanVien.Remove(m);
+            var m = base.All.First(i => i.MaNcc == id);
+            Context.NhaCungCap.Remove(m);
             Context.SaveChanges();
-            return m.MaNv;
+            return m.MaNcc;
         }
-        #endregion
     }
 }

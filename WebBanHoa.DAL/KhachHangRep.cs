@@ -8,24 +8,24 @@ namespace WebBanHoa.DAL
 {
     using WebBanHoa.Common.Rsp;
     using WebBanHoa.DAL.Models;
-    public class NhanVienRep : GenericRep<WebBanHoaContext, NhanVien>
+    public class KhachHangRep : GenericRep<WebBanHoaContext, KhachHang>
     {
         #region --Override--
-        public override NhanVien Read(int id)
+        public override KhachHang Read(int id)
         {
-            var res = All.FirstOrDefault(p => p.MaNv == id);
+            var res = All.FirstOrDefault(p => p.MaKh == id);
             return res;
         }
         public int Remove(int id)
         {
-            var m = base.All.First(i => i.MaNv == id);
+            var m = base.All.First(i => i.MaKh == id);
             m = base.Delete(m);
-            return m.MaNv;
+            return m.MaKh;
         }
         #endregion
 
         #region --Methods--
-        public SingleRsp CreateNhanVien(NhanVien nv)
+        public SingleRsp CreateKhachHang(KhachHang kh)
         {
             var res = new SingleRsp();
             using (var context = new WebBanHoaContext())
@@ -34,7 +34,7 @@ namespace WebBanHoa.DAL
                 {
                     try
                     {
-                        var T = context.NhanVien.Add(nv);
+                        var T = context.KhachHang.Add(kh);
                         context.SaveChanges();
                         tran.Commit();
                     }
@@ -48,7 +48,7 @@ namespace WebBanHoa.DAL
             return res;
         }
 
-        public SingleRsp UpdateNhanVien(NhanVien nv)
+        public SingleRsp UpdateKhachHang(KhachHang kh)
         {
             var res = new SingleRsp();
             using (var context = new WebBanHoaContext())
@@ -57,7 +57,7 @@ namespace WebBanHoa.DAL
                 {
                     try
                     {
-                        var T = context.NhanVien.Update(nv);
+                        var T = context.KhachHang.Update(kh);
                         context.SaveChanges();
                         tran.Commit();
                     }
@@ -70,12 +70,12 @@ namespace WebBanHoa.DAL
             }
             return res;
         }
-        public int DeleteNhanVien(int id)
+        public int DeleteKhachHang(int id)
         {
-            var m = base.All.First(i => i.MaNv == id);
-            Context.NhanVien.Remove(m);
+            var m = base.All.First(i => i.MaKh == id);
+            Context.KhachHang.Remove(m);
             Context.SaveChanges();
-            return m.MaNv;
+            return m.MaKh;
         }
         #endregion
     }
