@@ -22,7 +22,7 @@ namespace WebBanHoa.Web.Controllers
             _svc = new KhachHangSvc();
         }
 
-        [HttpPost("get-khach-hang")]
+        [HttpPost("get_khach-hang_theo_makh")]
         public IActionResult getKhachHangById([FromBody]SimpleReq req)
         {
             var res = new SingleRsp();
@@ -38,7 +38,7 @@ namespace WebBanHoa.Web.Controllers
             return Ok(res);
         }
 
-        [HttpDelete("search_khach-hang")]
+        [HttpPost("search_khach-hang")]
         public IActionResult SearchKhachHang(SearchKhachHangReq req)
         {
             var res = new SingleRsp();
@@ -62,7 +62,7 @@ namespace WebBanHoa.Web.Controllers
             return Ok(res);
         }
 
-        [HttpDelete("delete-nhanvien")]
+        [HttpDelete("delete_khachhang")]
         public IActionResult DeleteKhachHang(DeleteKhachHangReq req)
         {
             var res = _svc.DeleteKhachHang(req.MaKh);

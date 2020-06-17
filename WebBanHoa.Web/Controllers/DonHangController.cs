@@ -15,12 +15,19 @@ namespace WebBanHoa.Web.Controllers
 
     public class DonHangController : Controller
     {
+        [HttpPost("get_donhang_theo_madh")]
+        public IActionResult getDonHangById([FromBody]SimpleReq req)
+        {
+            var res = new SingleRsp();
+            res = _svc.Read(req.Id);
+            return Ok(res);
+        }
 
         public DonHangController()
         {
             _svc = new DonHangSvc();
         }
-        [HttpPost("get-all-donhang")]
+        [HttpPost("get_all")]
         public IActionResult getAllNhanVienById()
         {
             var res = new SingleRsp();
@@ -36,21 +43,21 @@ namespace WebBanHoa.Web.Controllers
 
             return Ok(res);
         }
-        [HttpPost("create-donhang")]
+        [HttpPost("create_donhang")]
         public IActionResult CreateDonHang([FromBody] DonHangReq req)
         {
             var res = _svc.CreateDonHang(req);
 
             return Ok(res);
         }
-        [HttpPut("update-donhang")]
+        [HttpPut("update_donhang")]
         public IActionResult UpdateDonHang([FromBody] DonHangReq req)
         {
             var res = _svc.CapnhatDonHang(req);
 
             return Ok(res);
         }
-        [HttpDelete("delete-donhang")]
+        [HttpDelete("delete_donhang")]
         public IActionResult DeleteDonHang(DeleteDonHangReq req)
         {
             var res = _svc.DeleteDonHang(req.MaDh);

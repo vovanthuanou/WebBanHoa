@@ -21,7 +21,7 @@ namespace WebBanHoa.Web.Controllers
         {
             _svc = new ChiNhanhSvc();
         }
-        [HttpPost("lay-thong-tin-chi-nhanh-theo-machinhanh")]
+        [HttpPost("get_chi-nhanh_theo_machinhanh")]
         public IActionResult getChiNhanhByMaChiNhanhbyId([FromBody] SimpleReq req)
         {
             var res = new SingleRsp();
@@ -36,27 +36,7 @@ namespace WebBanHoa.Web.Controllers
             res.Data = _svc.All;
             return Ok(res);
         }
-        [HttpPost("create-chinhanh")]
-        public IActionResult CreateChiNhanh([FromBody] ChiNhanhReq req)
-        {
-            var res = _svc.CreateChiNhanh(req);
 
-            return Ok(res);
-        }
-        [HttpPost("update-chinhanh")]
-        public IActionResult UpdateChiNhanh([FromBody] ChiNhanhReq req)
-        {
-            var res = _svc.CapnhatChiNhanh(req);
-
-            return Ok(res);
-        }
-        [HttpPost("delete-chinhanh")]
-        public IActionResult DeleteChiNhanh(DeleteChiNhanhReq req)
-        {
-            var res = _svc.DeleteChiNhanh(req.MaChiNhanh);
-
-            return Ok(res);
-        }
         [HttpPost("search_chinhanh")]
         public IActionResult SearchChiNhanhCtrl([FromBody] SearchChiNhanhReq req)
         {
@@ -66,6 +46,29 @@ namespace WebBanHoa.Web.Controllers
 
             return Ok(res);
         }
+
+        [HttpPost("create-chinhanh")]
+        public IActionResult CreateChiNhanh([FromBody] ChiNhanhReq req)
+        {
+            var res = _svc.CreateChiNhanh(req);
+
+            return Ok(res);
+        }
+        [HttpPut("update-chinhanh")]
+        public IActionResult UpdateChiNhanh([FromBody] ChiNhanhReq req)
+        {
+            var res = _svc.CapnhatChiNhanh(req);
+
+            return Ok(res);
+        }
+        [HttpDelete("delete-chinhanh")]
+        public IActionResult DeleteChiNhanh(DeleteChiNhanhReq req)
+        {
+            var res = _svc.DeleteChiNhanh(req.MaChiNhanh);
+
+            return Ok(res);
+        }
+        
 
         private readonly ChiNhanhSvc _svc;
     }

@@ -22,7 +22,23 @@ namespace WebBanHoa.Web.Controllers
         {
             _svc = new SanPhamSvc();
         }
-        [HttpPost("Search-SanPham")]
+
+        [HttpPost("get_sanpham_theo_mahoa")]
+        public IActionResult getSanPhamById([FromBody]SimpleReq req)
+        {
+            var res = new SingleRsp();
+            res = _svc.Read(req.Id);
+            return Ok(res);
+        }
+
+        [HttpPost("get_all")]
+        public IActionResult GetAll()
+        {
+            var res = new SingleRsp();
+            res.Data = _svc.All;
+            return Ok(res);
+        }
+        [HttpPost("search_sanpham")]
         public IActionResult SearchSanPham(SearchSanPhamReq req)
         {
             var res = new SingleRsp();
@@ -30,27 +46,20 @@ namespace WebBanHoa.Web.Controllers
             res.Data = pros;
             return Ok(res);
         }
-        [HttpPost("Get-all-SanPham")]
-        public IActionResult GetAll()
-        {
-            var res = new SingleRsp();
-            res.Data = _svc.All;
-            return Ok(res);
-        }
-        [HttpPost("Create-SanPham")]
+        [HttpPost("creat_sanPham")]
         public IActionResult CreateProduct([FromBody]SanPhamReq req)
         {
             var res = _svc.CreateProduct(req);
             return Ok(res);
         }
 
-        [HttpPut("Update-SanPham")]
+        [HttpPut("update_sanpham")]
         public IActionResult UpdateProduct([FromBody]SanPhamReq req)
         {
             var res = _svc.UpdateProduct(req);
             return Ok(res);
         }
-        [HttpDelete("Delete-SanPham")]
+        [HttpDelete("delete_sanpham")]
         public IActionResult DeleteSanPham([FromBody]DeleteSanPhamReq req)
         {
             var res = _svc.DeleteSanPham(req.MaHoa);

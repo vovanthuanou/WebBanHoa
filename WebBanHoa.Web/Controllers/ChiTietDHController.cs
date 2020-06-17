@@ -21,7 +21,7 @@ namespace WebBanHoa.Web.Controllers
             _svc = new ChiTietDHSvc();
         }
 
-        [HttpPost("get-by-id")]
+        [HttpPost("get_chitietdonhang_theo_madh")]
         public IActionResult getCHitietById([FromBody]SimpleReq req)
         {
             var res = new SingleRsp();
@@ -29,36 +29,15 @@ namespace WebBanHoa.Web.Controllers
             return Ok(res);
         }
 
-        [HttpGet("get-all")]
+        [HttpPost("get-all")]
         public IActionResult getAllchitietById()
         {
             var res = new SingleRsp();
             res.Data = _svc.All;
             return Ok(res);
         }
-        [HttpPost("create-chitiet-donhang")]
-        public IActionResult CreateChiTietDonHang([FromBody] ChiTietDHReq req)
-        {
-            var res = _svc.CreateChiTietDH(req);
 
-            return Ok(res);
-        }
-        [HttpPut("update-chitiet-donhang")]
-        public IActionResult UpdateChiTietDonHangCtrl([FromBody] ChiTietDHReq req)
-        {
-            var res = _svc.UpdateChiTietDH(req);
-
-            return Ok(res);
-        }
-
-        [HttpDelete("delete-chitiet-donhang")]
-        public IActionResult DeleteChitietDonHangCtrl(DeleteChiTietDHReq req)
-        {
-            var res = _svc.DeleteChiTietDH(req.MaDh);
-
-            return Ok(res);
-        }
-        [HttpPost("search-chitiet-donhang")]
+        [HttpPost("search_chitietdonhang")]
         public IActionResult SearchCTDonHangCtrl([FromBody] SearchChiTietDHReq req)
         {
             var res = new SingleRsp();
@@ -67,6 +46,30 @@ namespace WebBanHoa.Web.Controllers
 
             return Ok(res);
         }
+
+        [HttpPost("create_chitietdonhang")]
+        public IActionResult CreateChiTietDonHang([FromBody] ChiTietDHReq req)
+        {
+            var res = _svc.CreateChiTietDH(req);
+
+            return Ok(res);
+        }
+        [HttpPut("update_chitietdonhang")]
+        public IActionResult UpdateChiTietDonHangCtrl([FromBody] ChiTietDHReq req)
+        {
+            var res = _svc.UpdateChiTietDH(req);
+
+            return Ok(res);
+        }
+
+        [HttpDelete("delete_chitietdonhang")]
+        public IActionResult DeleteChitietDonHangCtrl(DeleteChiTietDHReq req)
+        {
+            var res = _svc.DeleteChiTietDH(req.MaDh);
+
+            return Ok(res);
+        }
+        
 
         private readonly ChiTietDHSvc _svc;
     }

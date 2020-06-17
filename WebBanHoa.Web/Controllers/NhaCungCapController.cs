@@ -23,7 +23,7 @@ namespace WebBanHoa.Web.Controllers
         {
             _svc = new NhaCungCapSvc();
         }
-        [HttpPost("get-by-id")]
+        [HttpPost("get_nhacungcap_theo_mancc")]
         public IActionResult getNhaCungCapById([FromBody]SimpleReq req)
         {
             var res = new SingleRsp();
@@ -31,7 +31,7 @@ namespace WebBanHoa.Web.Controllers
             return Ok(res);
         }
 
-        [HttpPost("get-all")]
+        [HttpPost("get_all")]
         public IActionResult getAllNhaCungCapById()
         {
             var res = new SingleRsp();
@@ -39,27 +39,6 @@ namespace WebBanHoa.Web.Controllers
             return Ok(res);
         }
 
-        [HttpPost("create-nhacungcap")]
-        public IActionResult CreateNhaCungCap([FromBody] NhaCungCapReq req)
-        {
-            var res = _svc.CreateNhaCungCap(req);
-
-            return Ok(res);
-        }
-        [HttpPut("update-nhacungcap")]
-        public IActionResult UpdateNhaCungCap([FromBody] NhaCungCapReq req)
-        {
-            var res = _svc.UpdateNhaCungCap(req);
-
-            return Ok(res);
-        }
-        [HttpDelete("delete-nhacungcap")]
-        public IActionResult DeleteNhaCungCap(DeleteNhaCungCapReq req)
-        {
-            var res = _svc.DeleteNhaCungCap(req.MaNcc);
-
-            return Ok(res);
-        }
         [HttpPost("search_nhacungcap")]
         public IActionResult SearchNhaCungCapCtrl([FromBody] SearchNhaCungCapReq req)
         {
@@ -69,6 +48,29 @@ namespace WebBanHoa.Web.Controllers
 
             return Ok(res);
         }
+
+        [HttpPost("create_nhacungcap")]
+        public IActionResult CreateNhaCungCap([FromBody] NhaCungCapReq req)
+        {
+            var res = _svc.CreateNhaCungCap(req);
+
+            return Ok(res);
+        }
+        [HttpPut("update_nhacungcap")]
+        public IActionResult UpdateNhaCungCap([FromBody] NhaCungCapReq req)
+        {
+            var res = _svc.UpdateNhaCungCap(req);
+
+            return Ok(res);
+        }
+        [HttpDelete("delete_nhacungcap")]
+        public IActionResult DeleteNhaCungCap(DeleteNhaCungCapReq req)
+        {
+            var res = _svc.DeleteNhaCungCap(req.MaNcc);
+
+            return Ok(res);
+        }
+        
 
 
         private readonly NhaCungCapSvc _svc;
