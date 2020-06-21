@@ -28,7 +28,7 @@ namespace WebBanHoa.DAL.Models
             if (!optionsBuilder.IsConfigured)
             {
 
-                optionsBuilder.UseSqlServer("Data Source=.\\SQLEXPRESS;Initial Catalog=WebBanHoa;Persist Security Info=True;User ID=sa;Password=123456;Pooling=False;MultipleActiveResultSets=False;Encrypt=False;TrustServerCertificate=True;");
+                optionsBuilder.UseSqlServer("Data Source=.\\TRAM;Initial Catalog=WebBanHoa;Persist Security Info=True;User ID=sa;Password=123;Pooling=False;MultipleActiveResultSets=False;Encrypt=False;TrustServerCertificate=True;");
             }
         }
 

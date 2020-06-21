@@ -1,105 +1,17 @@
-F:\------------THUAN----------------\Năm 3\Kỳ 2\BTL\WebBanHoa\WebBanHoa.BLL\bin\Debug\netcoreapp3.1\WebBanHoa.BLL.deps.json
-F:\------------THUAN----------------\Năm 3\Kỳ 2\BTL\WebBanHoa\WebBanHoa.BLL\bin\Debug\netcoreapp3.1\WebBanHoa.BLL.dll
-F:\------------THUAN----------------\Năm 3\Kỳ 2\BTL\WebBanHoa\WebBanHoa.BLL\obj\Debug\netcoreapp3.1\WebBanHoa.BLL.csprojAssemblyReference.cache
-F:\------------THUAN----------------\Năm 3\Kỳ 2\BTL\WebBanHoa\WebBanHoa.BLL\obj\Debug\netcoreapp3.1\WebBanHoa.BLL.AssemblyInfoInputs.cache
-F:\------------THUAN----------------\Năm 3\Kỳ 2\BTL\WebBanHoa\WebBanHoa.BLL\obj\Debug\netcoreapp3.1\WebBanHoa.BLL.AssemblyInfo.cs
-F:\------------THUAN----------------\Năm 3\Kỳ 2\BTL\WebBanHoa\WebBanHoa.BLL\bin\Debug\netcoreapp3.1\WebBanHoa.BLL.runtimeconfig.json
-F:\------------THUAN----------------\Năm 3\Kỳ 2\BTL\WebBanHoa\WebBanHoa.BLL\bin\Debug\netcoreapp3.1\WebBanHoa.BLL.runtimeconfig.dev.json
-F:\------------THUAN----------------\Năm 3\Kỳ 2\BTL\WebBanHoa\WebBanHoa.BLL\bin\Debug\netcoreapp3.1\WebBanHoa.BLL.pdb
-F:\------------THUAN----------------\Năm 3\Kỳ 2\BTL\WebBanHoa\WebBanHoa.BLL\bin\Debug\netcoreapp3.1\WebBanHoa.Common.dll
-F:\------------THUAN----------------\Năm 3\Kỳ 2\BTL\WebBanHoa\WebBanHoa.BLL\bin\Debug\netcoreapp3.1\WebBanHoa.DAL.dll
-F:\------------THUAN----------------\Năm 3\Kỳ 2\BTL\WebBanHoa\WebBanHoa.BLL\bin\Debug\netcoreapp3.1\WebBanHoa.Common.pdb
-F:\------------THUAN----------------\Năm 3\Kỳ 2\BTL\WebBanHoa\WebBanHoa.BLL\bin\Debug\netcoreapp3.1\WebBanHoa.DAL.pdb
-F:\------------THUAN----------------\Năm 3\Kỳ 2\BTL\WebBanHoa\WebBanHoa.BLL\obj\Debug\netcoreapp3.1\WebBanHoa.BLL.csproj.CoreCompileInputs.cache
-F:\------------THUAN----------------\Năm 3\Kỳ 2\BTL\WebBanHoa\WebBanHoa.BLL\obj\Debug\netcoreapp3.1\WebBanHoa.BLL.csproj.CopyComplete
-F:\------------THUAN----------------\Năm 3\Kỳ 2\BTL\WebBanHoa\WebBanHoa.BLL\obj\Debug\netcoreapp3.1\WebBanHoa.BLL.dll
-F:\------------THUAN----------------\Năm 3\Kỳ 2\BTL\WebBanHoa\WebBanHoa.BLL\obj\Debug\netcoreapp3.1\WebBanHoa.BLL.pdb
-F:\------------THUAN----------------\Năm 3\Kỳ 2\BTL\WebBanHoa\WebBanHoa.BLL\obj\Debug\netcoreapp3.1\WebBanHoa.BLL.genruntimeconfig.cache
-F:\------------THUAN----------------\Năm 3\Kỳ 2\BTL\BTL\WebBanHoa.BLL\bin\Debug\netcoreapp3.1\WebBanHoa.BLL.deps.json
-F:\------------THUAN----------------\Năm 3\Kỳ 2\BTL\BTL\WebBanHoa.BLL\bin\Debug\netcoreapp3.1\WebBanHoa.BLL.runtimeconfig.json
-F:\------------THUAN----------------\Năm 3\Kỳ 2\BTL\BTL\WebBanHoa.BLL\bin\Debug\netcoreapp3.1\WebBanHoa.BLL.runtimeconfig.dev.json
-F:\------------THUAN----------------\Năm 3\Kỳ 2\BTL\BTL\WebBanHoa.BLL\bin\Debug\netcoreapp3.1\WebBanHoa.BLL.dll
-F:\------------THUAN----------------\Năm 3\Kỳ 2\BTL\BTL\WebBanHoa.BLL\bin\Debug\netcoreapp3.1\WebBanHoa.BLL.pdb
-F:\------------THUAN----------------\Năm 3\Kỳ 2\BTL\BTL\WebBanHoa.BLL\bin\Debug\netcoreapp3.1\WebBanHoa.Common.dll
-F:\------------THUAN----------------\Năm 3\Kỳ 2\BTL\BTL\WebBanHoa.BLL\bin\Debug\netcoreapp3.1\WebBanHoa.DAL.dll
-F:\------------THUAN----------------\Năm 3\Kỳ 2\BTL\BTL\WebBanHoa.BLL\bin\Debug\netcoreapp3.1\WebBanHoa.Common.pdb
-F:\------------THUAN----------------\Năm 3\Kỳ 2\BTL\BTL\WebBanHoa.BLL\bin\Debug\netcoreapp3.1\WebBanHoa.DAL.pdb
-F:\------------THUAN----------------\Năm 3\Kỳ 2\BTL\BTL\WebBanHoa.BLL\obj\Debug\netcoreapp3.1\WebBanHoa.BLL.csprojAssemblyReference.cache
-F:\------------THUAN----------------\Năm 3\Kỳ 2\BTL\BTL\WebBanHoa.BLL\obj\Debug\netcoreapp3.1\WebBanHoa.BLL.AssemblyInfoInputs.cache
-F:\------------THUAN----------------\Năm 3\Kỳ 2\BTL\BTL\WebBanHoa.BLL\obj\Debug\netcoreapp3.1\WebBanHoa.BLL.AssemblyInfo.cs
-F:\------------THUAN----------------\Năm 3\Kỳ 2\BTL\BTL\WebBanHoa.BLL\obj\Debug\netcoreapp3.1\WebBanHoa.BLL.csproj.CoreCompileInputs.cache
-F:\------------THUAN----------------\Năm 3\Kỳ 2\BTL\BTL\WebBanHoa.BLL\obj\Debug\netcoreapp3.1\WebBanHoa.BLL.csproj.CopyComplete
-F:\------------THUAN----------------\Năm 3\Kỳ 2\BTL\BTL\WebBanHoa.BLL\obj\Debug\netcoreapp3.1\WebBanHoa.BLL.dll
-F:\------------THUAN----------------\Năm 3\Kỳ 2\BTL\BTL\WebBanHoa.BLL\obj\Debug\netcoreapp3.1\WebBanHoa.BLL.pdb
-F:\------------THUAN----------------\Năm 3\Kỳ 2\BTL\BTL\WebBanHoa.BLL\obj\Debug\netcoreapp3.1\WebBanHoa.BLL.genruntimeconfig.cache
-D:\BTWBH\WebBanHoa\WebBanHoa.BLL\bin\Debug\netcoreapp3.1\WebBanHoa.BLL.deps.json
-D:\BTWBH\WebBanHoa\WebBanHoa.BLL\bin\Debug\netcoreapp3.1\WebBanHoa.BLL.runtimeconfig.json
-D:\BTWBH\WebBanHoa\WebBanHoa.BLL\bin\Debug\netcoreapp3.1\WebBanHoa.BLL.runtimeconfig.dev.json
-D:\BTWBH\WebBanHoa\WebBanHoa.BLL\bin\Debug\netcoreapp3.1\WebBanHoa.BLL.dll
-D:\BTWBH\WebBanHoa\WebBanHoa.BLL\bin\Debug\netcoreapp3.1\WebBanHoa.BLL.pdb
-D:\BTWBH\WebBanHoa\WebBanHoa.BLL\bin\Debug\netcoreapp3.1\WebBanHoa.Common.dll
-D:\BTWBH\WebBanHoa\WebBanHoa.BLL\bin\Debug\netcoreapp3.1\WebBanHoa.DAL.dll
-D:\BTWBH\WebBanHoa\WebBanHoa.BLL\bin\Debug\netcoreapp3.1\WebBanHoa.Common.pdb
-D:\BTWBH\WebBanHoa\WebBanHoa.BLL\bin\Debug\netcoreapp3.1\WebBanHoa.DAL.pdb
-D:\BTWBH\WebBanHoa\WebBanHoa.BLL\obj\Debug\netcoreapp3.1\WebBanHoa.BLL.csprojAssemblyReference.cache
-D:\BTWBH\WebBanHoa\WebBanHoa.BLL\obj\Debug\netcoreapp3.1\WebBanHoa.BLL.AssemblyInfoInputs.cache
-D:\BTWBH\WebBanHoa\WebBanHoa.BLL\obj\Debug\netcoreapp3.1\WebBanHoa.BLL.AssemblyInfo.cs
-D:\BTWBH\WebBanHoa\WebBanHoa.BLL\obj\Debug\netcoreapp3.1\WebBanHoa.BLL.csproj.CoreCompileInputs.cache
-D:\BTWBH\WebBanHoa\WebBanHoa.BLL\obj\Debug\netcoreapp3.1\WebBanHoa.BLL.csproj.CopyComplete
-D:\BTWBH\WebBanHoa\WebBanHoa.BLL\obj\Debug\netcoreapp3.1\WebBanHoa.BLL.dll
-D:\BTWBH\WebBanHoa\WebBanHoa.BLL\obj\Debug\netcoreapp3.1\WebBanHoa.BLL.pdb
-D:\BTWBH\WebBanHoa\WebBanHoa.BLL\obj\Debug\netcoreapp3.1\WebBanHoa.BLL.genruntimeconfig.cache
-<<<<<<< HEAD
-C:\Users\vovan\Desktop\WebBanHoa\WebBanHoa.BLL\bin\Debug\netcoreapp3.1\WebBanHoa.BLL.deps.json
-C:\Users\vovan\Desktop\WebBanHoa\WebBanHoa.BLL\bin\Debug\netcoreapp3.1\WebBanHoa.BLL.runtimeconfig.json
-C:\Users\vovan\Desktop\WebBanHoa\WebBanHoa.BLL\bin\Debug\netcoreapp3.1\WebBanHoa.BLL.runtimeconfig.dev.json
-C:\Users\vovan\Desktop\WebBanHoa\WebBanHoa.BLL\bin\Debug\netcoreapp3.1\WebBanHoa.BLL.dll
-C:\Users\vovan\Desktop\WebBanHoa\WebBanHoa.BLL\bin\Debug\netcoreapp3.1\WebBanHoa.BLL.pdb
-C:\Users\vovan\Desktop\WebBanHoa\WebBanHoa.BLL\bin\Debug\netcoreapp3.1\WebBanHoa.Common.dll
-C:\Users\vovan\Desktop\WebBanHoa\WebBanHoa.BLL\bin\Debug\netcoreapp3.1\WebBanHoa.DAL.dll
-C:\Users\vovan\Desktop\WebBanHoa\WebBanHoa.BLL\bin\Debug\netcoreapp3.1\WebBanHoa.Common.pdb
-C:\Users\vovan\Desktop\WebBanHoa\WebBanHoa.BLL\bin\Debug\netcoreapp3.1\WebBanHoa.DAL.pdb
-C:\Users\vovan\Desktop\WebBanHoa\WebBanHoa.BLL\obj\Debug\netcoreapp3.1\WebBanHoa.BLL.csprojAssemblyReference.cache
-C:\Users\vovan\Desktop\WebBanHoa\WebBanHoa.BLL\obj\Debug\netcoreapp3.1\WebBanHoa.BLL.AssemblyInfoInputs.cache
-C:\Users\vovan\Desktop\WebBanHoa\WebBanHoa.BLL\obj\Debug\netcoreapp3.1\WebBanHoa.BLL.AssemblyInfo.cs
-C:\Users\vovan\Desktop\WebBanHoa\WebBanHoa.BLL\obj\Debug\netcoreapp3.1\WebBanHoa.BLL.csproj.CoreCompileInputs.cache
-C:\Users\vovan\Desktop\WebBanHoa\WebBanHoa.BLL\obj\Debug\netcoreapp3.1\WebBanHoa.BLL.csproj.CopyComplete
-C:\Users\vovan\Desktop\WebBanHoa\WebBanHoa.BLL\obj\Debug\netcoreapp3.1\WebBanHoa.BLL.dll
-C:\Users\vovan\Desktop\WebBanHoa\WebBanHoa.BLL\obj\Debug\netcoreapp3.1\WebBanHoa.BLL.pdb
-C:\Users\vovan\Desktop\WebBanHoa\WebBanHoa.BLL\obj\Debug\netcoreapp3.1\WebBanHoa.BLL.genruntimeconfig.cache
-C:\Users\phudu\Desktop\WebBanHoa\WebBanHoa.BLL\obj\Debug\netcoreapp3.1\WebBanHoa.BLL.dll
-C:\Users\phudu\Desktop\WebBanHoa\WebBanHoa.BLL\obj\Debug\netcoreapp3.1\WebBanHoa.BLL.pdb
-C:\Users\phudu\Desktop\WebBanHoa\WebBanHoa.BLL\bin\Debug\netcoreapp3.1\WebBanHoa.BLL.deps.json
-C:\Users\phudu\Desktop\WebBanHoa\WebBanHoa.BLL\bin\Debug\netcoreapp3.1\WebBanHoa.BLL.runtimeconfig.json
-C:\Users\phudu\Desktop\WebBanHoa\WebBanHoa.BLL\bin\Debug\netcoreapp3.1\WebBanHoa.BLL.runtimeconfig.dev.json
-C:\Users\phudu\Desktop\WebBanHoa\WebBanHoa.BLL\bin\Debug\netcoreapp3.1\WebBanHoa.BLL.dll
-C:\Users\phudu\Desktop\WebBanHoa\WebBanHoa.BLL\bin\Debug\netcoreapp3.1\WebBanHoa.BLL.pdb
-C:\Users\phudu\Desktop\WebBanHoa\WebBanHoa.BLL\bin\Debug\netcoreapp3.1\WebBanHoa.Common.dll
-C:\Users\phudu\Desktop\WebBanHoa\WebBanHoa.BLL\bin\Debug\netcoreapp3.1\WebBanHoa.DAL.dll
-C:\Users\phudu\Desktop\WebBanHoa\WebBanHoa.BLL\bin\Debug\netcoreapp3.1\WebBanHoa.Common.pdb
-C:\Users\phudu\Desktop\WebBanHoa\WebBanHoa.BLL\bin\Debug\netcoreapp3.1\WebBanHoa.DAL.pdb
-C:\Users\phudu\Desktop\WebBanHoa\WebBanHoa.BLL\obj\Debug\netcoreapp3.1\WebBanHoa.BLL.csprojAssemblyReference.cache
-C:\Users\phudu\Desktop\WebBanHoa\WebBanHoa.BLL\obj\Debug\netcoreapp3.1\WebBanHoa.BLL.csproj.CoreCompileInputs.cache
-C:\Users\phudu\Desktop\WebBanHoa\WebBanHoa.BLL\obj\Debug\netcoreapp3.1\WebBanHoa.BLL.AssemblyInfoInputs.cache
-C:\Users\phudu\Desktop\WebBanHoa\WebBanHoa.BLL\obj\Debug\netcoreapp3.1\WebBanHoa.BLL.AssemblyInfo.cs
-C:\Users\phudu\Desktop\WebBanHoa\WebBanHoa.BLL\obj\Debug\netcoreapp3.1\WebBanHoa.BLL.csproj.CopyComplete
-C:\Users\phudu\Desktop\WebBanHoa\WebBanHoa.BLL\obj\Debug\netcoreapp3.1\WebBanHoa.BLL.genruntimeconfig.cache
-=======
->>>>>>> origin/Code_Hau
-F:\------------THUAN----------------\Năm 3\Kỳ 2\LTCSDL\WebBanHoa\WebBanHoa.BLL\obj\Debug\netcoreapp3.1\WebBanHoa.BLL.csprojAssemblyReference.cache
-F:\------------THUAN----------------\Năm 3\Kỳ 2\LTCSDL\WebBanHoa\WebBanHoa.BLL\obj\Debug\netcoreapp3.1\WebBanHoa.BLL.AssemblyInfoInputs.cache
-F:\------------THUAN----------------\Năm 3\Kỳ 2\LTCSDL\WebBanHoa\WebBanHoa.BLL\obj\Debug\netcoreapp3.1\WebBanHoa.BLL.AssemblyInfo.cs
-F:\------------THUAN----------------\Năm 3\Kỳ 2\LTCSDL\WebBanHoa\WebBanHoa.BLL\obj\Debug\netcoreapp3.1\WebBanHoa.BLL.csproj.CoreCompileInputs.cache
-F:\------------THUAN----------------\Năm 3\Kỳ 2\LTCSDL\WebBanHoa\WebBanHoa.BLL\obj\Debug\netcoreapp3.1\WebBanHoa.BLL.dll
-F:\------------THUAN----------------\Năm 3\Kỳ 2\LTCSDL\WebBanHoa\WebBanHoa.BLL\obj\Debug\netcoreapp3.1\WebBanHoa.BLL.pdb
-F:\------------THUAN----------------\Năm 3\Kỳ 2\LTCSDL\WebBanHoa\WebBanHoa.BLL\bin\Debug\netcoreapp3.1\WebBanHoa.BLL.deps.json
-F:\------------THUAN----------------\Năm 3\Kỳ 2\LTCSDL\WebBanHoa\WebBanHoa.BLL\bin\Debug\netcoreapp3.1\WebBanHoa.BLL.runtimeconfig.json
-F:\------------THUAN----------------\Năm 3\Kỳ 2\LTCSDL\WebBanHoa\WebBanHoa.BLL\bin\Debug\netcoreapp3.1\WebBanHoa.BLL.runtimeconfig.dev.json
-F:\------------THUAN----------------\Năm 3\Kỳ 2\LTCSDL\WebBanHoa\WebBanHoa.BLL\bin\Debug\netcoreapp3.1\WebBanHoa.BLL.dll
-F:\------------THUAN----------------\Năm 3\Kỳ 2\LTCSDL\WebBanHoa\WebBanHoa.BLL\bin\Debug\netcoreapp3.1\WebBanHoa.BLL.pdb
-F:\------------THUAN----------------\Năm 3\Kỳ 2\LTCSDL\WebBanHoa\WebBanHoa.BLL\bin\Debug\netcoreapp3.1\WebBanHoa.Common.dll
-F:\------------THUAN----------------\Năm 3\Kỳ 2\LTCSDL\WebBanHoa\WebBanHoa.BLL\bin\Debug\netcoreapp3.1\WebBanHoa.DAL.dll
-F:\------------THUAN----------------\Năm 3\Kỳ 2\LTCSDL\WebBanHoa\WebBanHoa.BLL\bin\Debug\netcoreapp3.1\WebBanHoa.Common.pdb
-F:\------------THUAN----------------\Năm 3\Kỳ 2\LTCSDL\WebBanHoa\WebBanHoa.BLL\bin\Debug\netcoreapp3.1\WebBanHoa.DAL.pdb
-F:\------------THUAN----------------\Năm 3\Kỳ 2\LTCSDL\WebBanHoa\WebBanHoa.BLL\obj\Debug\netcoreapp3.1\WebBanHoa.BLL.csproj.CopyComplete
-F:\------------THUAN----------------\Năm 3\Kỳ 2\LTCSDL\WebBanHoa\WebBanHoa.BLL\obj\Debug\netcoreapp3.1\WebBanHoa.BLL.genruntimeconfig.cache
+C:\Users\Sony\Desktop\WebBanHoa\WebBanHoa.BLL\bin\Debug\netcoreapp3.1\WebBanHoa.BLL.deps.json
+C:\Users\Sony\Desktop\WebBanHoa\WebBanHoa.BLL\bin\Debug\netcoreapp3.1\WebBanHoa.BLL.runtimeconfig.json
+C:\Users\Sony\Desktop\WebBanHoa\WebBanHoa.BLL\bin\Debug\netcoreapp3.1\WebBanHoa.BLL.runtimeconfig.dev.json
+C:\Users\Sony\Desktop\WebBanHoa\WebBanHoa.BLL\bin\Debug\netcoreapp3.1\WebBanHoa.BLL.dll
+C:\Users\Sony\Desktop\WebBanHoa\WebBanHoa.BLL\bin\Debug\netcoreapp3.1\WebBanHoa.BLL.pdb
+C:\Users\Sony\Desktop\WebBanHoa\WebBanHoa.BLL\bin\Debug\netcoreapp3.1\WebBanHoa.Common.dll
+C:\Users\Sony\Desktop\WebBanHoa\WebBanHoa.BLL\bin\Debug\netcoreapp3.1\WebBanHoa.DAL.dll
+C:\Users\Sony\Desktop\WebBanHoa\WebBanHoa.BLL\bin\Debug\netcoreapp3.1\WebBanHoa.Common.pdb
+C:\Users\Sony\Desktop\WebBanHoa\WebBanHoa.BLL\bin\Debug\netcoreapp3.1\WebBanHoa.DAL.pdb
+C:\Users\Sony\Desktop\WebBanHoa\WebBanHoa.BLL\obj\Debug\netcoreapp3.1\WebBanHoa.BLL.csprojAssemblyReference.cache
+C:\Users\Sony\Desktop\WebBanHoa\WebBanHoa.BLL\obj\Debug\netcoreapp3.1\WebBanHoa.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Sony\Desktop\WebBanHoa\WebBanHoa.BLL\obj\Debug\netcoreapp3.1\WebBanHoa.BLL.AssemblyInfoInputs.cache
+C:\Users\Sony\Desktop\WebBanHoa\WebBanHoa.BLL\obj\Debug\netcoreapp3.1\WebBanHoa.BLL.AssemblyInfo.cs
+C:\Users\Sony\Desktop\WebBanHoa\WebBanHoa.BLL\obj\Debug\netcoreapp3.1\WebBanHoa.BLL.csproj.CopyComplete
+C:\Users\Sony\Desktop\WebBanHoa\WebBanHoa.BLL\obj\Debug\netcoreapp3.1\WebBanHoa.BLL.dll
+C:\Users\Sony\Desktop\WebBanHoa\WebBanHoa.BLL\obj\Debug\netcoreapp3.1\WebBanHoa.BLL.pdb
+C:\Users\Sony\Desktop\WebBanHoa\WebBanHoa.BLL\obj\Debug\netcoreapp3.1\WebBanHoa.BLL.genruntimeconfig.cache

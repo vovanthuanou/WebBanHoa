@@ -62,7 +62,7 @@ namespace WebBanHoa.Web.Controllers
             return Ok(res);
         }
 
-        [HttpDelete("delete-nhanvien")]
+        [HttpPost("delete-nhanvien")]
         public IActionResult DeleteNhanVien(DeleteNhanVienReq req)
         {
             var res = _svc.DeleteNhanVien(req.MaNv);
