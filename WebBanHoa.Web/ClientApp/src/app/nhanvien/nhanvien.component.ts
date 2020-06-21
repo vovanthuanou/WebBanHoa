@@ -118,7 +118,7 @@ export class NhanvienComponent implements OnInit {
   }
 
   updateNhanvien() {
-    this.http.put('https://localhost:44321/api/NhanVien/update_nhanvien', this.nhanvien).subscribe(result => {
+    this.http.post('https://localhost:44321/api/NhanVien/update_nhanvien', this.nhanvien).subscribe(result => {
       var res: any = result;
       if (res.success) {
         this.nhanvien = res.data;
