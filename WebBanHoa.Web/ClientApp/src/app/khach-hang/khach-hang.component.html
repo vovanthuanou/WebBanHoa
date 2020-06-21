@@ -1,0 +1,93 @@
+<h1 id="tableLabel">KhachHang</h1>
+
+
+
+<p *ngIf="!khachhangs"><em>Loading...</em></p>
+<button class="btn btn-primary" (click)="openModal(true,null)">Add new KhachHang</button>
+
+<table class='table table-striped' aria-labelledby="tableLabel" *ngIf="khachhangs.totalRecord>0">
+  <thead>
+    <tr>
+      <th>MaKh</th>
+      <th>HoKh</th>
+      <th>TenKh</th>
+      <th>GioiTinh</th>
+      <th>DiaChi</th>
+      <th>Sdt</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let k of khachhangs.data; index as i;">
+      <td>{{ k.maKh }}</td>
+      <td>{{ k.hoKh }}</td>
+      <td>{{ k.tenKh }}</td>
+      <td>{{ k.gioiTinh }}</td>
+      <td>{{ k.diaChi }}</td>
+      <td>{{ k.sdt }}</td>
+      <td>
+        <button class="btn btn-info btn-sm" (click)="openModal(false,i)">Edit</button>,
+        <button class="btn btn-danger btn-sm" (click)="deleteKhachHang(i)">Delete</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<ul class="pagination">
+    <li class="page-item">
+      <a href="javascript:void(0);" (click)="searchPrevious()">Trước</a>
+    </li>
+    <li class="page-item">{{khachhang.page}}</li>
+    <li class="page-item">
+      <a href="javascript:void(0);" (click)="searchNext()">Sau</a>
+    </li>
+</ul>
+
+<div class="modal fade"  id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" *ngIf="!isEdit" id="exampleModalLabel">Add new KhachHang</h5>
+        <h5 class="modal-title" *ngIf="isEdit" id="exampleModalLabel">Edit KhachHang</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-4">MaKh</div>
+          <div class="col-8"><input class="form-control"type ="number"[(ngModel)]= "khachhang.maKh"></div>
+        </div>
+        <br/>
+        <div class="row">
+          <div class="col-4">HoKh</div>
+          <div class="col-8"><input class="form-control" [(ngModel)]= "khachhang.hoKh"></div>
+      </div>
+      <br/>
+      <div class="row">
+        <div class="col-4">TenKh</div>
+        <div class="col-8"><input class="form-control"[(ngModel)]= "khachhang.tenKh"></div>
+      </div>
+      <br/>
+      <div class="row">
+        <div class="col-4">GioiTinh</div>
+        <div class="col-8"><input class="form-control"[(ngModel)]= "khachhang.gioiTinh"></div>
+    </div>
+    <br/>
+    <div class="row">
+      <div class="col-4">DiaChi</div>
+      <div class="col-8"><input class="form-control"[(ngModel)]= "khachhang.diaChi"></div>
+    </div>
+    <br/>
+    <div class="row">
+      <div class="col-4">Sdt</div>
+      <div class="col-8"><input class="form-control"type ="number"[(ngModel)]= "khachhang.sdt"></div>
+  </div>  
+</div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary"(click)="updateKhachHang()">Save</button>
+        <button type="button" class="btn btn-success"(click)="addKhachHang()">Add</button>
+      </div>
+    </div>
+  </div>
+</div>
