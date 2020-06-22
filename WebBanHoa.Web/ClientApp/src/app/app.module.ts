@@ -12,19 +12,19 @@ import { FetchDataComponent } from './fetch-data/fetch-data.component';
 import { KhachHangComponent } from './khach-hang/khach-hang.component';
 import { NhanvienComponent } from './nhanvien/nhanvien.component';
 import { SanphamComponent } from './sanpham/sanpham.component';
-import { HeaderComponent } from "./share/header/header.component";
-import { LoginComponent } from "./share/login/login.component";
-import { FooterComponent} from "./share/footer/footer.component";
-import { CartComponent } from "./cart/cart.component"
 
+import { LoginComponent } from "./login/login.component";
+
+import { CartComponent } from "./cart/cart.component";
+import { NavMenuComponent } from './nav-menu/nav-menu.component';
 @NgModule({
   declarations: [
     AppComponent,
     CartComponent,
+    NavMenuComponent,
     HomeComponent,
     LoginComponent,
-    HeaderComponent,
-    FooterComponent,
+   
     CounterComponent,
     FetchDataComponent,
     KhachHangComponent,
