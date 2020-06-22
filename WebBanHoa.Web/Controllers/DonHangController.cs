@@ -50,14 +50,14 @@ namespace WebBanHoa.Web.Controllers
 
             return Ok(res);
         }
-        [HttpPut("update_donhang")]
+        [HttpPost("update_donhang")]
         public IActionResult UpdateDonHang([FromBody] DonHangReq req)
         {
             var res = _svc.CapnhatDonHang(req);
 
             return Ok(res);
         }
-        [HttpDelete("delete_donhang")]
+        [HttpPost("delete_donhang")]
         public IActionResult DeleteDonHang(DeleteDonHangReq req)
         {
             var res = _svc.DeleteDonHang(req.MaDh);

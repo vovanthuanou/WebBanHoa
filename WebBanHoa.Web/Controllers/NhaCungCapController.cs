@@ -56,14 +56,14 @@ namespace WebBanHoa.Web.Controllers
 
             return Ok(res);
         }
-        [HttpPut("update_nhacungcap")]
+        [HttpPost("update_nhacungcap")]
         public IActionResult UpdateNhaCungCap([FromBody] NhaCungCapReq req)
         {
             var res = _svc.UpdateNhaCungCap(req);
 
             return Ok(res);
         }
-        [HttpDelete("delete_nhacungcap")]
+        [HttpPost("delete_nhacungcap")]
         public IActionResult DeleteNhaCungCap(DeleteNhaCungCapReq req)
         {
             var res = _svc.DeleteNhaCungCap(req.MaNcc);

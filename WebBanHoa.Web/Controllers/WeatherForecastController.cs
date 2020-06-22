@@ -23,7 +23,7 @@ namespace WebBanHoa.Web.Controllers
             _logger = logger;
         }
 
-        [HttpGet]
+        [HttpPost]
         public IEnumerable<WeatherForecast> Get()
         {
             var rng = new Random();

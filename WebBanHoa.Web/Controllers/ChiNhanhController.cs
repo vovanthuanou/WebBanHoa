@@ -54,14 +54,14 @@ namespace WebBanHoa.Web.Controllers
 
             return Ok(res);
         }
-        [HttpPut("update-chinhanh")]
+        [HttpPost("update-chinhanh")]
         public IActionResult UpdateChiNhanh([FromBody] ChiNhanhReq req)
         {
             var res = _svc.CapnhatChiNhanh(req);
 
             return Ok(res);
         }
-        [HttpDelete("delete-chinhanh")]
+        [HttpPost("delete-chinhanh")]
         public IActionResult DeleteChiNhanh(DeleteChiNhanhReq req)
         {
             var res = _svc.DeleteChiNhanh(req.MaChiNhanh);

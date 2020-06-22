@@ -54,7 +54,7 @@ namespace WebBanHoa.Web.Controllers
 
             return Ok(res);
         }
-        [HttpPut("update_chitietdonhang")]
+        [HttpPost("update_chitietdonhang")]
         public IActionResult UpdateChiTietDonHangCtrl([FromBody] ChiTietDHReq req)
         {
             var res = _svc.UpdateChiTietDH(req);
@@ -62,7 +62,7 @@ namespace WebBanHoa.Web.Controllers
             return Ok(res);
         }
 
-        [HttpDelete("delete_chitietdonhang")]
+        [HttpPost("delete_chitietdonhang")]
         public IActionResult DeleteChitietDonHangCtrl(DeleteChiTietDHReq req)
         {
             var res = _svc.DeleteChiTietDH(req.MaDh);
