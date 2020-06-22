@@ -1,0 +1,93 @@
+<h1 id="tableLabel">Sanpham</h1>
+
+
+
+<p *ngIf="!sanphams"><em>Loading...</em></p>
+<button class ="btn btn-primary" (click)="openModal(true,null)">Thêm Sản Phẩm</button>
+<table class='table table-striped' aria-labelledby="tableLabel" *ngIf="sanphams.totalRecord>0">
+  <thead>
+    <tr>
+      <th>MaHoa</th>
+      <th>TenHoa</th>
+      <th>GiaMua</th>
+      <th>GiaBan</th>
+      <th>SoLuong</th>
+      <th>TonKho</th>
+      <th>MoTa</th>
+      <th>Action</th>
+     
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let n of sanphams.data; index as i;">
+      <td>{{ n.maHoa }}</td>
+      <td>{{ n.tenHoa}}</td>
+      <td>{{ n.giaMua}}</td>
+      <td>{{ n.giaBan }}</td>
+      <td>{{ n.soLuong }}</td>
+      <td>{{ n.tonKho  }}</td>
+      <td>{{ n.mota  }}</td>
+      <button class ="btn btn-info btm-sm" (click)="openModal(false,i)">Sửa</button>
+      <button class ="btn btn-danger btm-sm" (click)="deleteSanpham(i)">Xóa</button>
+    </tr>
+  </tbody>
+</table>
+<ul class="pagination">
+    <li class="page-item">
+        <a href="javascript:void(0);"(click)="searchPrevious()">Trước </a>
+    </li>
+    <li class="page-item">{{sanphams.page}}</li>
+    <li class="page-item">
+            <a href="javascript:void(0);"(click)="searchNext()"> Sau</a>
+   </li>
+</ul>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" *ngIf="!isEdit" id="exampleModalLabel">Tạo mới sản phẩm</h5>
+        <h5 class="modal-title" *ngIf="isEdit" id="exampleModalLabel">Chỉnh sửa thông tin</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       <div class="row" >
+        <div class="col-4">MaHoa</div> 
+        <div class="col-8"><input class ="form-control"[(ngModel)]="sanpham.maHoa"></div>
+       </div>
+       <br/>
+       <div class="row" >
+        <div class="col-4">TenHoa</div> 
+        <div class="col-8"><input class ="form-control"[(ngModel)]="sanpham.tenHoa"></div>
+       </div>
+       <br/>
+       <div class="row">
+        <div class="col-4">GiaMua</div> 
+        <div class="col-8"><input class ="form-control"type ="number"[(ngModel)]="sanpham.giaMua"></div> 
+       </div>
+       <br/>
+       <div class="row">
+        <div class="col-4">GiaBan</div> 
+        <div class="col-8"><input class ="form-control"type ="number"[(ngModel)]="sanpham.giaBan"></div>
+       </div>
+       <br/>
+       <div class="row">
+        <div class="col-4">SoLuong</div> 
+        <div class="col-8"><input class ="form-control" type ="number"[(ngModel)]="sanpham.soLuong"></div>
+       </div>
+       <br/>
+       <div class="row">
+        <div class="col-4">TonKho</div> 
+        <div class="col-8"><input class ="form-control" type ="number"[(ngModel)]="sanpham.tonKho"></div> 
+       </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+        <button type="button" class="btn btn-primary"(click) ="updateSanpham()">Lưu</button>
+        <button type="button" class="btn btn-success"(click) ="addSanpham()">Thêm</button>
+      </div>
+    </div>
+  </div>
+</div>

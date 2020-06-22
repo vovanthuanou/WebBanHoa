@@ -53,13 +53,13 @@ namespace WebBanHoa.Web.Controllers
             return Ok(res);
         }
 
-        [HttpPut("update_sanpham")]
+        [HttpPost("update_sanpham")]
         public IActionResult UpdateProduct([FromBody]SanPhamReq req)
         {
             var res = _svc.UpdateProduct(req);
             return Ok(res);
         }
-        [HttpDelete("delete_sanpham")]
+        [HttpPost("delete_sanpham")]
         public IActionResult DeleteSanPham([FromBody]DeleteSanPhamReq req)
         {
             var res = _svc.DeleteSanPham(req.MaHoa);

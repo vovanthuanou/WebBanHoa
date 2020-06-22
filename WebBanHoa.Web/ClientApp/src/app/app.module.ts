@@ -11,6 +11,8 @@ import { CounterComponent } from './counter/counter.component';
 import { FetchDataComponent } from './fetch-data/fetch-data.component';
 import { KhachHangComponent } from './khach-hang/khach-hang.component';
 import { NhanvienComponent } from './nhanvien/nhanvien.component';
+import { SanphamComponent } from './sanpham/sanpham.component';
+
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { NhanvienComponent } from './nhanvien/nhanvien.component';
     CounterComponent,
     FetchDataComponent,
     KhachHangComponent,
-    NhanvienComponent
+    NhanvienComponent,
+    SanphamComponent
+  
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
@@ -32,7 +36,8 @@ import { NhanvienComponent } from './nhanvien/nhanvien.component';
       { path: 'fetch-data', component: FetchDataComponent },
       { path: 'search-khach-hang', component: KhachHangComponent },
       { path: 'search-nhanvien', component: NhanvienComponent },
-      
+      { path: 'search-sanpham', component: SanphamComponent },
+     
     ])
   ],
   providers: [],
