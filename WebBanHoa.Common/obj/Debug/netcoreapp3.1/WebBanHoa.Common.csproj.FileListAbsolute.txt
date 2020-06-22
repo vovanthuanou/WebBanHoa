@@ -7,3 +7,12 @@ D:\WEBBH\WebBanHoa\WebBanHoa.Common\obj\Debug\netcoreapp3.1\WebBanHoa.Common.Ass
 D:\WEBBH\WebBanHoa\WebBanHoa.Common\obj\Debug\netcoreapp3.1\WebBanHoa.Common.csproj.CoreCompileInputs.cache
 D:\WEBBH\WebBanHoa\WebBanHoa.Common\obj\Debug\netcoreapp3.1\WebBanHoa.Common.dll
 D:\WEBBH\WebBanHoa\WebBanHoa.Common\obj\Debug\netcoreapp3.1\WebBanHoa.Common.pdb
+C:\Users\Sony\Desktop\WebBanHoa\WebBanHoa.Common\bin\Debug\netcoreapp3.1\WebBanHoa.Common.deps.json
+C:\Users\Sony\Desktop\WebBanHoa\WebBanHoa.Common\bin\Debug\netcoreapp3.1\WebBanHoa.Common.dll
+C:\Users\Sony\Desktop\WebBanHoa\WebBanHoa.Common\bin\Debug\netcoreapp3.1\WebBanHoa.Common.pdb
+C:\Users\Sony\Desktop\WebBanHoa\WebBanHoa.Common\obj\Debug\netcoreapp3.1\WebBanHoa.Common.csprojAssemblyReference.cache
+C:\Users\Sony\Desktop\WebBanHoa\WebBanHoa.Common\obj\Debug\netcoreapp3.1\WebBanHoa.Common.csproj.CoreCompileInputs.cache
+C:\Users\Sony\Desktop\WebBanHoa\WebBanHoa.Common\obj\Debug\netcoreapp3.1\WebBanHoa.Common.AssemblyInfoInputs.cache
+C:\Users\Sony\Desktop\WebBanHoa\WebBanHoa.Common\obj\Debug\netcoreapp3.1\WebBanHoa.Common.AssemblyInfo.cs
+C:\Users\Sony\Desktop\WebBanHoa\WebBanHoa.Common\obj\Debug\netcoreapp3.1\WebBanHoa.Common.dll
+C:\Users\Sony\Desktop\WebBanHoa\WebBanHoa.Common\obj\Debug\netcoreapp3.1\WebBanHoa.Common.pdb

@@ -1,0 +1,98 @@
+<h1 id="tableLabel">Nhanvien</h1>
+
+
+
+<p *ngIf="!nhanviens"><em>Loading...</em></p>
+<button class ="btn btn-primary" (click)="openModal(true,null)">Thêm Nhân Viên</button>
+<table class='table table-striped' aria-labelledby="tableLabel" *ngIf="nhanviens.totalRecord>0">
+  <thead>
+    <tr>
+      <th>MaNV</th>
+      <th>HoNv</th>
+      <th>TenNv</th>
+      <th>GioiTinh</th>
+      <th>ChucVu</th>
+      <th>NgaySinh</th>
+      <th>NgayLam</th>
+      <th>SoCMND</th>
+      <th>DiaChi</th>
+      <th>Luong</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let n of nhanviens.data; index as i;">
+      <td>{{ n.maNv }}</td>
+      <td>{{ n.hoNv }}</td>
+      <td>{{ n.tenNv }}</td>
+      <td>{{ n.gioiTinh }}</td>
+      <td>{{ n.chucVu }}</td>
+      <td>{{ n.ngaySinh | date: "dd-MM-yyyy" }}</td>
+      <td>{{ n.ngayLam | date: "dd-MM-yyyy"}}</td>
+      <td>{{ n.soCmnd }}</td>
+      <td>{{ n.diaChi }}</td>
+      <td>{{ n.luong }}</td>
+      <button class ="btn btn-info btm-sm" (click)="openModal(false,i)">Sửa</button>
+      <button class ="btn btn-danger btm-sm" (click)="deleteNhanvien(i)">Xóa</button>
+    </tr>
+  </tbody>
+</table>
+<ul class="pagination">
+    <li class="page-item">
+        <a href="javascript:void(0);"(click)="searchPrevious()">Trước </a>
+    </li>
+    <li class="page-item">{{nhanviens.page}}</li>
+    <li class="page-item">
+            <a href="javascript:void(0);"(click)="searchNext()"> Sau</a>
+   </li>
+</ul>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" *ngIf="!isEdit" id="exampleModalLabel">Tạo mới nhân viên</h5>
+        <h5 class="modal-title" *ngIf="isEdit" id="exampleModalLabel">Chỉnh sửa thông tin</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       <div class="row" >
+        <div class="col-4">MaNV</div> 
+        <div class="col-8"><input class ="form-control"[(ngModel)]="nhanvien.maNv"></div>
+       </div>
+       <br/>
+       <div class="row" >
+        <div class="col-4">HoNV</div> 
+        <div class="col-8"><input class ="form-control"[(ngModel)]="nhanvien.hoNv"></div>
+       </div>
+       <br/>
+       <div class="row">
+        <div class="col-4">TenNv</div> 
+        <div class="col-8"><input class ="form-control"[(ngModel)]="nhanvien.tenNv"></div> 
+       </div>
+       <br/>
+       <div class="row">
+        <div class="col-4">GioiTinh</div> 
+        <div class="col-8"><input class ="form-control"[(ngModel)]="nhanvien.gioiTinh"></div>
+       </div>
+       <br/>
+       <div class="row">
+        <div class="col-4">ChucVu</div> 
+        <div class="col-8"><input class ="form-control"[(ngModel)]="nhanvien.chucVu"></div>
+       </div>
+       <br/>
+       <div class="row">
+        <div class="col-4">SoCMND</div> 
+        <div class="col-8"><input class ="form-control" type ="number"[(ngModel)]="nhanvien.soCmnd"></div> 
+       </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+        <button type="button" class="btn btn-primary"(click) ="updateNhanvien()">Lưu</button>
+        <button type="button" class="btn btn-success"(click) ="addNhanvien()">Thêm</button>
+      </div>
+    </div>
+  </div>
+</div>

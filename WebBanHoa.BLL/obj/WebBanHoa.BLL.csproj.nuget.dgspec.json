@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\WEBBH\\WebBanHoa\\WebBanHoa.BLL\\WebBanHoa.BLL.csproj": {}
+    "C:\\Users\\Sony\\Desktop\\WebBanHoa\\WebBanHoa.BLL\\WebBanHoa.BLL.csproj": {}
   },
   "projects": {
-    "D:\\WEBBH\\WebBanHoa\\WebBanHoa.BLL\\WebBanHoa.BLL.csproj": {
+    "C:\\Users\\Sony\\Desktop\\WebBanHoa\\WebBanHoa.BLL\\WebBanHoa.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\WEBBH\\WebBanHoa\\WebBanHoa.BLL\\WebBanHoa.BLL.csproj",
+        "projectUniqueName": "C:\\Users\\Sony\\Desktop\\WebBanHoa\\WebBanHoa.BLL\\WebBanHoa.BLL.csproj",
         "projectName": "WebBanHoa.BLL",
-        "projectPath": "D:\\WEBBH\\WebBanHoa\\WebBanHoa.BLL\\WebBanHoa.BLL.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\WEBBH\\WebBanHoa\\WebBanHoa.BLL\\obj\\",
+        "projectPath": "C:\\Users\\Sony\\Desktop\\WebBanHoa\\WebBanHoa.BLL\\WebBanHoa.BLL.csproj",
+        "packagesPath": "C:\\Users\\Sony\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sony\\Desktop\\WebBanHoa\\WebBanHoa.BLL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Sony\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -27,11 +27,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\WEBBH\\WebBanHoa\\WebBanHoa.Common\\WebBanHoa.Common.csproj": {
-                "projectPath": "D:\\WEBBH\\WebBanHoa\\WebBanHoa.Common\\WebBanHoa.Common.csproj"
+              "C:\\Users\\Sony\\Desktop\\WebBanHoa\\WebBanHoa.Common\\WebBanHoa.Common.csproj": {
+                "projectPath": "C:\\Users\\Sony\\Desktop\\WebBanHoa\\WebBanHoa.Common\\WebBanHoa.Common.csproj"
               },
-              "D:\\WEBBH\\WebBanHoa\\WebBanHoa.DAL\\WebBanHoa.DAL.csproj": {
-                "projectPath": "D:\\WEBBH\\WebBanHoa\\WebBanHoa.DAL\\WebBanHoa.DAL.csproj"
+              "C:\\Users\\Sony\\Desktop\\WebBanHoa\\WebBanHoa.DAL\\WebBanHoa.DAL.csproj": {
+                "projectPath": "C:\\Users\\Sony\\Desktop\\WebBanHoa\\WebBanHoa.DAL\\WebBanHoa.DAL.csproj"
               }
             }
           }
@@ -75,21 +75,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\WEBBH\\WebBanHoa\\WebBanHoa.Common\\WebBanHoa.Common.csproj": {
+    "C:\\Users\\Sony\\Desktop\\WebBanHoa\\WebBanHoa.Common\\WebBanHoa.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\WEBBH\\WebBanHoa\\WebBanHoa.Common\\WebBanHoa.Common.csproj",
+        "projectUniqueName": "C:\\Users\\Sony\\Desktop\\WebBanHoa\\WebBanHoa.Common\\WebBanHoa.Common.csproj",
         "projectName": "WebBanHoa.Common",
-        "projectPath": "D:\\WEBBH\\WebBanHoa\\WebBanHoa.Common\\WebBanHoa.Common.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\WEBBH\\WebBanHoa\\WebBanHoa.Common\\obj\\",
+        "projectPath": "C:\\Users\\Sony\\Desktop\\WebBanHoa\\WebBanHoa.Common\\WebBanHoa.Common.csproj",
+        "packagesPath": "C:\\Users\\Sony\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sony\\Desktop\\WebBanHoa\\WebBanHoa.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Sony\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -133,21 +133,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\WEBBH\\WebBanHoa\\WebBanHoa.DAL\\WebBanHoa.DAL.csproj": {
+    "C:\\Users\\Sony\\Desktop\\WebBanHoa\\WebBanHoa.DAL\\WebBanHoa.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\WEBBH\\WebBanHoa\\WebBanHoa.DAL\\WebBanHoa.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\Sony\\Desktop\\WebBanHoa\\WebBanHoa.DAL\\WebBanHoa.DAL.csproj",
         "projectName": "WebBanHoa.DAL",
-        "projectPath": "D:\\WEBBH\\WebBanHoa\\WebBanHoa.DAL\\WebBanHoa.DAL.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\WEBBH\\WebBanHoa\\WebBanHoa.DAL\\obj\\",
+        "projectPath": "C:\\Users\\Sony\\Desktop\\WebBanHoa\\WebBanHoa.DAL\\WebBanHoa.DAL.csproj",
+        "packagesPath": "C:\\Users\\Sony\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sony\\Desktop\\WebBanHoa\\WebBanHoa.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Sony\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -160,8 +160,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\WEBBH\\WebBanHoa\\WebBanHoa.Common\\WebBanHoa.Common.csproj": {
-                "projectPath": "D:\\WEBBH\\WebBanHoa\\WebBanHoa.Common\\WebBanHoa.Common.csproj"
+              "C:\\Users\\Sony\\Desktop\\WebBanHoa\\WebBanHoa.Common\\WebBanHoa.Common.csproj": {
+                "projectPath": "C:\\Users\\Sony\\Desktop\\WebBanHoa\\WebBanHoa.Common\\WebBanHoa.Common.csproj"
               }
             }
           }
@@ -205,7 +205,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
