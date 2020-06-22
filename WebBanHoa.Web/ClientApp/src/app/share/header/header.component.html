@@ -1,0 +1,52 @@
+<!--  Header    -->
+<!-- Navigation -->
+<header class="header">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand text-white" href="#">BLUE FLOWERS</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav ml-auto">
+                    <li
+            class="nav-item"
+            [routerLinkActive]="['link-active']"
+            [routerLinkActiveOptions]="{ exact: true }"
+          >
+            <a class="nav-link " [routerLink]="['/']">Home</a>
+          </li>
+
+          <li class="nav-item" [routerLinkActive]="['link-active']">
+             <a class="nav-link " [routerLink]="['/search-khach-hang']"
+              >KhachHang</a
+            >
+          </li>
+          <li class="nav-item" [routerLinkActive]="['link-active']">
+            <a class="nav-link " [routerLink]="['/search-nhanvien']"
+              >Nhanvien</a
+            >
+          </li>
+          <li class="nav-item" [routerLinkActive]="['link-active']">
+            <a class="nav-link " [routerLink]="['/search-sanpham']"
+              >Sanpham</a>
+          </li>
+          
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Login
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item"  [routerLink]="['/login']" >Account</a>
+                  <a class="dropdown-item"  [routerLink]="['/cart']" >Giỏ hàng</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item"  [routerLink]="['/home']" >Sign out</a>
+                </div>
+              </li>
+              </ul>
+            </div>
+    </div>
+     </nav>
+    </header>
+    <!-- Navigation -->
+    <!--  Header    -->

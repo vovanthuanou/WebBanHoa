@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\Sony\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Sony\\.nuget\\packages"
+      "C:\\Users\\CEGROUP\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\CEGROUP\\.nuget\\packages"
     ]
   }
 }

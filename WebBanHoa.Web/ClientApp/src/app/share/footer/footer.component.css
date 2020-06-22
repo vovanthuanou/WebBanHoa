@@ -1,0 +1,13 @@
+.pt-4, .py-4 {
+    padding-top: 1.5rem!important;
+    background-color: rgb(44, 43, 56);
+}
+.bg-primary {
+    background-color: rgb(44, 43, 56);
+}
+.footer {
+    position: relative;
+    left: 0;
+    top: 0;
+    padding: 40px;
+  }

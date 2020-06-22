@@ -1,0 +1,25 @@
+.header {
+    position: relative;
+    left: 0;
+    top: 0;
+    padding: 40px;
+  }
+  a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+  }
+  
+  html {
+    font-size: 14px;
+  }
+  @media (min-width: 768px) {
+    html {
+      font-size: 16px;
+    }
+  }
+.a.nav-link.text-dark {
+
+  color: rgb(255, 255, 255);
+}
+  

@@ -5,20 +5,26 @@ import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
-import { NavMenuComponent } from './nav-menu/nav-menu.component';
+
 import { HomeComponent } from './home/home.component';
 import { CounterComponent } from './counter/counter.component';
 import { FetchDataComponent } from './fetch-data/fetch-data.component';
 import { KhachHangComponent } from './khach-hang/khach-hang.component';
 import { NhanvienComponent } from './nhanvien/nhanvien.component';
 import { SanphamComponent } from './sanpham/sanpham.component';
-
+import { HeaderComponent } from "./share/header/header.component";
+import { LoginComponent } from "./share/login/login.component";
+import { FooterComponent} from "./share/footer/footer.component";
+import { CartComponent } from "./cart/cart.component"
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavMenuComponent,
+    CartComponent,
     HomeComponent,
+    LoginComponent,
+    HeaderComponent,
+    FooterComponent,
     CounterComponent,
     FetchDataComponent,
     KhachHangComponent,
@@ -37,6 +43,8 @@ import { SanphamComponent } from './sanpham/sanpham.component';
       { path: 'search-khach-hang', component: KhachHangComponent },
       { path: 'search-nhanvien', component: NhanvienComponent },
       { path: 'search-sanpham', component: SanphamComponent },
+      { path: "login", component: LoginComponent },
+      { path: "cart", component: CartComponent },
      
     ])
   ],
