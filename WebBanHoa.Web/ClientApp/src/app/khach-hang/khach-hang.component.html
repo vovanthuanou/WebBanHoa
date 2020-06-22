@@ -3,7 +3,7 @@
 
 
 <p *ngIf="!khachhangs"><em>Loading...</em></p>
-<button class="btn btn-primary" (click)="openModal(true,null)">Add new KhachHang</button>
+<button class="btn btn-primary" (click)="openModal(true,null)">Thêm KhachHang</button>
 
 <table class='table table-striped' aria-labelledby="tableLabel" *ngIf="khachhangs.totalRecord>0">
   <thead>
@@ -46,8 +46,8 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" *ngIf="!isEdit" id="exampleModalLabel">Add new KhachHang</h5>
-        <h5 class="modal-title" *ngIf="isEdit" id="exampleModalLabel">Edit KhachHang</h5>
+        <h5 class="modal-title" *ngIf="!isEdit" id="exampleModalLabel">Thêm khách hàng</h5>
+        <h5 class="modal-title" *ngIf="isEdit" id="exampleModalLabel">Điều chỉnh thông tin khách hàng</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -84,9 +84,9 @@
   </div>  
 </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary"(click)="updateKhachHang()">Save</button>
-        <button type="button" class="btn btn-success"(click)="addKhachHang()">Add</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+        <button type="button" class="btn btn-primary"(click)="updateKhachHang()">Lưu</button>
+        <button type="button" class="btn btn-success"(click)="addKhachHang()">Thêm</button>
       </div>
     </div>
   </div>
