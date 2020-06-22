@@ -12,11 +12,11 @@ import { FetchDataComponent } from './fetch-data/fetch-data.component';
 import { KhachHangComponent } from './khach-hang/khach-hang.component';
 import { NhanvienComponent } from './nhanvien/nhanvien.component';
 import { SanphamComponent } from './sanpham/sanpham.component';
-
 import { LoginComponent } from "./login/login.component";
 
 import { CartComponent } from "./cart/cart.component";
 import { NavMenuComponent } from './nav-menu/nav-menu.component';
+import { from } from 'rxjs';
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,12 +24,12 @@ import { NavMenuComponent } from './nav-menu/nav-menu.component';
     NavMenuComponent,
     HomeComponent,
     LoginComponent,
-   
+    
     CounterComponent,
     FetchDataComponent,
     KhachHangComponent,
     NhanvienComponent,
-    SanphamComponent
+    SanphamComponent,
   
   ],
   imports: [
@@ -45,7 +45,6 @@ import { NavMenuComponent } from './nav-menu/nav-menu.component';
       { path: 'search-sanpham', component: SanphamComponent },
       { path: "login", component: LoginComponent },
       { path: "cart", component: CartComponent },
-     
     ])
   ],
   providers: [],
